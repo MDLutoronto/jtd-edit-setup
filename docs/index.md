@@ -33,6 +33,7 @@ This tutorial will guide you through the setup on your local machine for editing
     1. Recommended VS Code to install: 
         1. [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): for visually using git within VS Code
         2. [Path Autocomplete](https://marketplace.visualstudio.com/items?itemName=ionutvmi.path-autocomplete): for auto-completing file paths when editing markdown files
+        3. [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker): for spell checking when editing markdown files
 
 
 # Configuration
