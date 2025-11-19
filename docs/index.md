@@ -18,7 +18,7 @@ This tutorial will guide you through the setup on your local machine for editing
 
 ## Accounts
 
-1. GitHub account and to be added to the learning object repository under [MDLtoronto](https://github.com/MDLutoronto) GitHub Team
+1. GitHub account and to be added to the learning object repository under [MDLutoronto](https://github.com/MDLutoronto) GitHub Team
     1. Managing GitHub Repo access for students
         
         TBD: link to the guide for MDL staff to add students to the GitHub repo
@@ -31,7 +31,7 @@ This tutorial will guide you through the setup on your local machine for editing
 4. [GitHub CLI](https://cli.github.com/) (install the Windows version)
     1. This might need administrative privileges to install
 5. [VS Code](https://code.visualstudio.com/)
-    1. Recommended VS Code to install: 
+    1. Recommended VS Code extensions to install: 
         1. [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): for visually using git within VS Code
         2. [Path Autocomplete](https://marketplace.visualstudio.com/items?itemName=ionutvmi.path-autocomplete): for auto-completing file paths when editing markdown files
         3. [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker): for spell checking when editing markdown files
@@ -88,10 +88,16 @@ You would first need to install GitHub CLI on your windows environment
     git config --global user.email "Your Email"
     ```
 
-2. Check your settings with the following command. Look at the [`user.email`](http://user.email) and `user.name` rows
+2. Check your settings with the following command. Look at the [`user.email`](http://user.email) and `user.name` rows. It should show the values you have set above.
     
     ```powershell
     git config --list
+    ```
+
+3. You will also need to setup the authentication for `GitHub` CLI, using the following command:
+
+    ```powershell
+    gh auth setup-git
     ```
 
 ## Clone the GitHub repository
