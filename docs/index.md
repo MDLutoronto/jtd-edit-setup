@@ -19,8 +19,7 @@ This tutorial will guide you through the setup on your local machine for editing
 1. GitHub account and to be added to the learning object repository under [MDLtoronto](https://github.com/MDLutoronto) GitHub Team
     1. Managing GitHub Repo access for students
         
-        [GitHub access for students](https://www.notion.so/GitHub-access-for-students-277632eef3028086b91aee3ddf2d886d?pvs=21)
-        
+        TBD: link to the guide for MDL staff to add students to the GitHub repo
 
 ## Software
 
