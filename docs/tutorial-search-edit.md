@@ -11,7 +11,7 @@ staff_name: Ken Lui
 staff_link: https://library.utoronto.ca/staff/ken-lui
 ---
 
-This tutorial will guide you how to add or modify records in the [tutorials-search](https://github.com/MDLutoronto/tutorials-search) repository.
+This tutorial will guide you on how to add or modify records in the [tutorials-search](https://github.com/MDLutoronto/tutorials-search) repository.
 
 # Prerequisite
 Follow the Home page's setup for the prerequisite software and accounts.
@@ -34,7 +34,7 @@ There are two ways to edit the records in the tutorials-search repository:
     ```powershell
     cd tutorials-search
     ```
-5. Switch to the to a new git branch for your edits (optional but strongly recommended):
+5. Switch to a new git branch for your edits (optional but strongly recommended):
     ```powershell
     git checkout -b update-tutorials # You can change 'update-tutorials' to a more descriptive branch name
     ```
@@ -61,7 +61,7 @@ There are two ways to edit the records in the tutorials-search repository:
 2. Create a new branch for your edits (optional but strongly recommended):
    1. Click on the X Branch button next to the `main` branch icon.
     <img src="{{ '/assets/images/tutorial-search-edit/branches_list.png' | relative_url }}" 
-        alt="Branches list button"
+        alt="Branches list button on GitHub"
         style="width:300px; display:block; margin:auto;">
    2. You will see 'New branch' green button on the right side. Enter a name for your new branch (e.g. `update-tutorials`), and select `main` in the _Source_ option.
    3. You should see the branch under the `Your branches` section. Click on it to switch to the new branch.
@@ -83,7 +83,7 @@ There are two ways to edit the records in the tutorials-search repository:
    <img src="{{ '/assets/images/tutorial-search-edit/commit-changes-pop-up.png' | relative_url }}" 
         alt="Commit changes popup"
         style="width:300px; display:block; margin:auto;">
-6. Your changes will be saved to the new branch. click on the `tutorials-search` box to go back to the repository main page in the current branch.
+6. Your changes will be saved to the new branch. Click on the `tutorials-search` box to go back to the repository main page in the current branch.
     <img src="{{ '/assets/images/tutorial-search-edit/after-commit.png' | relative_url }}" 
         alt="After commit changes and back to repo main page"
         style="width:400px; display:block; margin:auto;">
@@ -95,7 +95,7 @@ There are two ways to edit the records in the tutorials-search repository:
     <img src="{{ '/assets/images/tutorial-search-edit/create-pull-request.png' | relative_url }}" 
           alt="Create Pull Request page"
           style="width:600px; display:block; margin:auto;">
-9.  You will be prompted to a a page. There will be some automated checks that run. Once they pass, you can click on the `Squash and merge` button to merge your changes into the main branch.
+9.  You will be brought to a new page. There will be some automated checks that run. Once they pass, you can click on the `Squash and merge` button to merge your changes into the main branch.
     <img src="{{ '/assets/images/tutorial-search-edit/squash-and-merge.png' | relative_url }}" 
           alt="Squash and Merge button"
           style="width:400px; display:block; margin:auto;">
