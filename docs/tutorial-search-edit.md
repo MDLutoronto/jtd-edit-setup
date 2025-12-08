@@ -17,13 +17,18 @@ This tutorial will guide you on how to add or modify records in the [tutorials-s
 Follow the Home page's setup for the prerequisite software and accounts.
 
 # Steps to Edit Records in tutorials-search
-Background: The website is backed by a [guides.yml file](https://github.com/MDLutoronto/tutorials-search/blob/main/_data/guides.yml). Each record in the YAML file represents a tutorial record in the search site.
+Background: The website is backed by a [guides.yml file](https://github.com/MDLutoronto/tutorials-search/blob/main/_data/guides.yml). Each record in the YAML file represents a tutorial record in the search site. You can add new records or modify existing records by editing this file.
 
 There are two ways to edit the records in the tutorials-search repository:
 1. Clone the repository to your local machine, edit the `guides.yml` file using a text editor (e.g. VS Code), and push the changes back to GitHub.
 2. Directly edit the `guides.yml` file in the GitHub web interface.
 
 ## Method 1: Edit Locally using VS Code
+
+{: .important }
+> You will first need to install the prerequisite software and set up your GitHub account as described on the [Home page]({{site.baseurl}}/).
+
+
 1. Open a (Windows) PowerShell Terminal
 2. Navigate to the directory where you want to clone the repository
 3. Clone the repository using the command:
@@ -79,7 +84,7 @@ There are two ways to edit the records in the tutorials-search repository:
 4. You will be lead to an online editor. Make your changes to the `guides.yml` file. Click on the `Commit changes` button at the top right corner when you are done.
 5. A pop-up will appear.
    1. Enter a meaningful commit message and description for your changes at the `Commit message` column. 
-   2. You can leave the `Extended description` column empty. Ensure that the option `Commit directly to the <your-branch-name> branch.` is selected. Click on the `Commit changes` button to save your changes to the branch.
+   2. You can leave the `Extended description` field empty. Ensure that the option `Commit directly to the <your-branch-name> branch.` is selected. Click on the `Commit changes` button to save your changes to the branch.
    <img src="{{ '/assets/images/tutorial-search-edit/commit-changes-pop-up.png' | relative_url }}" 
         alt="Commit changes popup"
         style="width:300px; display:block; margin:auto;">
