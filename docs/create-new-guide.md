@@ -9,7 +9,7 @@ has_children: False
 staff_name: Ken Lui
 staff_link: https://library.utoronto.ca/staff/ken-lui
 ---
-This guide will walk you through the steps to create a new guide for the tutorials-search repository.
+This guide will walk you through the steps to create a new guide with MDLutoronto's Just-the-docs template.
 
 The <a href="https://github.com/MDLutoronto/jtd-template" target="_blank">MDLutoronto/jtd-template</a> repository is a template repository that contains the necessary structure and files to create a new Just-the-docs site.
 
