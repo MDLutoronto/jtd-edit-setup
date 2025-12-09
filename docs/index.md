@@ -1,6 +1,6 @@
 ---
-title: Home
-layout: home
+title: Setup for Editing Just-the-Docs Sites
+layout: page
 nav_order: 1
 description: 
 permalink: /

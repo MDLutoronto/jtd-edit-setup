@@ -1,12 +1,11 @@
 ---
-title: Editing the tutorials-search Records
+title: Edit the tutorials-search Records
 layout: page
-nav_order: 1
+nav_order: 2
 description: 
-permalink: /
 created_date: 2025-12-05
 # last_modified_date: # Only use it when you want to override the auto-updated date.
-has_children: true
+has_children: False
 staff_name: Ken Lui
 staff_link: https://library.utoronto.ca/staff/ken-lui
 ---
