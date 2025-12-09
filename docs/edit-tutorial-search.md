@@ -6,6 +6,7 @@ description:
 created_date: 2025-12-05
 # last_modified_date: # Only use it when you want to override the auto-updated date.
 has_children: False
+permalink: /edit-tutorials-search/
 staff_name: Ken Lui
 staff_link: https://library.utoronto.ca/staff/ken-lui
 ---
