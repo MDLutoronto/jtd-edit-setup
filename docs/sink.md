@@ -3,18 +3,23 @@ title: Sink
 layout: page
 nav_order: 4
 description: 
-# last_modified_date: # Only use it when you want to override the auto-updated date.
 created_date: 2024-10-01
 staff_name: Ken Lui
 staff_link: https://example.com/ken-lui
 student_staff_name: Jane Doe
 student_staff_link: https://example.com/jane-doe
+has_children: True
 ---
 A sink page is to showcase the various markdown features supported by JTD. View the [source code](https://github.com/MDLutoronto/jtd-edit-setup/blob/main/docs/sink.md) (the `sink.md` file in the repository) of this page to see how to use these features.
 
 Please also refer to [https://just-the-docs.com/docs/ui-components/](https://just-the-docs.com/docs/ui-components/) for other UI components you can use in your markdown files.
 
 ---
+
+# Table of Contents
+{: .no_toc }
+1. Table of Contents
+{:toc}
 
 <button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
 
