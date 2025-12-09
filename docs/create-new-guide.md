@@ -11,7 +11,7 @@ staff_link: https://library.utoronto.ca/staff/ken-lui
 ---
 This guide will walk you through the steps to create a new guide for the tutorials-search repository.
 
-The [MDLutoronto/jtd-template repository ](https://github.com/MDLutoronto/jtd-template) is a template repository that contains the necessary structure and files to create a new Just-the-docs site.
+The <a href="https://github.com/MDLutoronto/jtd-template" target="_blank">MDLutoronto/jtd-template</a> repository is a template repository that contains the necessary structure and files to create a new Just-the-docs site.
 
 ## Creating a new repository
 1. Click on the `Use this template` button at the top right of this repository page. Then, click on the `Create a new repository` button.
@@ -37,7 +37,9 @@ The [MDLutoronto/jtd-template repository ](https://github.com/MDLutoronto/jtd-te
    <img src="{{ '/assets/images/create-new-guide/generating-your-repository.png' | relative_url}}" alt="Generating your new repository" style="width:200px;"/>
 
    <img src="{{ '/assets/images/create-new-guide/new-repo.png' | relative_url}}" alt="New repository page" style="width:600px;"/>
+
 ## Enabling GitHub Pages
+
 1. You will first need to enable GitHub Pages. Go to the `Settings` tab of your new repository. Then, click on the `Pages` option in the left sidebar. Lastly, under `Source`, select 'GitHub Actions' from the dropdown menu.
 
    <img src="{{ '/assets/images/create-new-guide/github-pages-setting.png' | relative_url}}" alt="Repository settings tab" style="width:600px;"/>
@@ -55,10 +57,49 @@ The [MDLutoronto/jtd-template repository ](https://github.com/MDLutoronto/jtd-te
    ```yaml
    url: "MDLutoronto/a-new-tutorial"
    ```
-   <img src="{{ '/assets/images/create-new-guide/change-config.png' | relative_url}}" alt="Change _config.yml" style="width:600px;"/>
+      <img src="{{ '/assets/images/create-new-guide/change-config.png' | relative_url}}" alt="Change _config.yml" style="width:600px;"/>
 
    3. Commit the changes to the `_config.yml` file. Enter your commit message. Ensure the `Commit directly to the main branch` option is selected, then click on the `Commit changes` button.
 
-   <img src="{{ '/assets/images/create-new-guide/commit-changes.png' | relative_url}}" alt="Commit changes to _config.yml" style="width:600px;"/>
+      <img src="{{ '/assets/images/create-new-guide/commit-changes.png' | relative_url}}" alt="Commit changes to _config.yml" style="width:600px;"/>
 
 You should now be able to see your new site at `https://MDLutoronto.github.io/your-repo-name` within a few minutes. For example, if your new repository is called `a-new-tutorial`, you should be able to see your new site at `https://MDLutoronto.github.io/a-new-tutorial`.
+
+# Creating a new page
+To create a new page in your Just-the-docs site, follow these steps:
+
+1. In your new repository, navigate to the `docs` folder.
+2. Create a new markdown file with the desired name for your new page. For example, if you want to create a page called `home`, create a file named `home.md`.
+3. Add the necessary front matter to the top of the markdown file.
+   ```yaml
+   ---
+   title: Home   # Title of the page, which will be displayed in the navigation and the browser title.
+   layout: page  # Layout type, usually 'page' for standard pages.
+   nav_order: 1  # Order in the navigation menu.
+   description:  # A brief description of the page for SEO purposes.
+   permalink: /  # Optional: Custom URL for the page. It will serve as the slug. For example, /home/
+   created_date:  # Date when the page was created. Should be in YYYY-MM-DD format.
+   has_children: False  # Set to True if the page has subpages.
+   ---
+   ```
+
+4. Add the content for your new page below the front matter, for example:
+
+   ```markdown
+   ---
+   title: Home   # Title of the page, which will be displayed in the navigation and the browser title.
+   layout: page  # Layout type, usually 'page' for standard pages.
+   nav_order: 1  # Order in the navigation menu.
+   description:  # A brief description of the page for SEO purposes.
+   permalink: /  # Optional: Custom URL for the page. It will serve as the slug. For example, /home/
+   created_date:  # Date when the page was created. Should be in YYYY-MM-DD format.
+   has_children: False  # Set to True if the page has subpages.
+   ---
+
+   # Title of the Page
+   Hello World! This is my new page.
+   (content goes here)
+
+   ```
+
+   See the <a href="{{ '/docs/sink/' | relative_url }}">Sink</a> guide for the UI elements you can use in your markdown files.
