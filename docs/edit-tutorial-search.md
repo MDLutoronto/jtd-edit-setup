@@ -2,9 +2,8 @@
 title: Edit the tutorials-search Records
 layout: page
 nav_order: 2
-description: 
+description: Guide on editing the tutorials-search portal records
 created_date: 2025-12-05
-# last_modified_date: # Only use it when you want to override the auto-updated date.
 has_children: False
 permalink: /edit-tutorials-search/
 staff_name: Ken Lui

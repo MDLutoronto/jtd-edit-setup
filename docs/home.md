@@ -2,7 +2,7 @@
 title: Home
 layout: home
 nav_order: 1
-description: 
+description: Home page for Just-the-docs documentation for MDL JTD sites.
 permalink: /
 created_date: 2025-12-09
 staff_name: Ken Lui
@@ -29,11 +29,11 @@ staff_link: https://library.utoronto.ca/staff/ken-lui
   }
 </style>
 
-Welcome to the Just-the-docs documentation home page for the Map & Data Library at the University of Toronto Libraries. Here you will find the guide on how to edit our just-the-docs based documentation sites, hosted on GitHub Pages.
+Welcome to the Just-the-docs documentation home page for the Map & Data Library at the University of Toronto Libraries. Here you will find the guide on how to edit our just-the-docs based sites
 
 # Structure of MDL just-the-docs sites
 
-There are two main types of sites in our MDL just-the-docs documentation:
+There are two main types of just-the-docs sites hosted by MDL via GitHub Pages:
 1. **General guides sites**: These are the main how-to-guides for various topics, such as GIS, data visualization, etc. It is meant to be browsed by patrons, and was hosted on MDL Drupal site previously.
 2. **Special sites**: These are just-the-docs sites that serve specific purposes, such as search portals, documentation for editing, etc.
 

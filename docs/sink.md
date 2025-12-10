@@ -1,8 +1,8 @@
 ---
-title: Sink
+title: Markdown kitchen sink
 layout: page
 nav_order: 4
-description: 
+description: Markdown kitchen sink page showcasing various markdown features supported by just-the-docs
 created_date: 2024-10-01
 staff_name: Ken Lui
 staff_link: https://example.com/ken-lui
@@ -10,7 +10,7 @@ student_staff_name: Jane Doe
 student_staff_link: https://example.com/jane-doe
 has_children: True
 ---
-A sink page is to showcase the various markdown features supported by JTD. View the [source code](https://github.com/MDLutoronto/jtd-edit-setup/blob/main/docs/sink.md) (the `sink.md` file in the repository) of this page to see how to use these features.
+A kitchen sink page is to showcase the various markdown features supported by just-the-docs. View the [source code of this page](https://github.com/MDLutoronto/jtd-edit-setup/blob/main/docs/sink.md) (the `sink.md` file in this repository) to see how to use these features.
 
 Please also refer to [https://just-the-docs.com/docs/ui-components/](https://just-the-docs.com/docs/ui-components/) for other UI components you can use in your markdown files.
 
@@ -20,6 +20,7 @@ Please also refer to [https://just-the-docs.com/docs/ui-components/](https://jus
 {: .no_toc }
 1. Table of Contents
 {:toc}
+---
 
 <button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
 
@@ -306,6 +307,18 @@ class conditions(object):
 Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
 ```
 
+### Syntax highlighting
+You can add syntax highlighting to code blocks by specifying the language after the opening triple backticks. For example, the following is a code block with Python syntax highlighting:
+
+```markdown
+    ```python
+    def hello_world():
+        print("Hello, world!")
+    ```
+```
+
+Change the `python` above to the desired programming language for different syntax highlighting. See the <a href="https://rouge-ruby.github.io/docs/file.Languages.html" target="_blank">list of supported languages</a>.
+
 ### Mermaid Diagrams
 
 The following code is displayed as a diagram only when a `mermaid` key supplied in `_config.yml`.
@@ -528,3 +541,21 @@ A paragraph
 > {: .warning }
 > A paragraph
 > </div>
+
+# Links
+There are two ways to create links in just-the-docs:
+
+## Markdown links
+You can create links using standard markdown syntax:
+
+```markdown
+[Link text](URL)
+```
+[Link to UTL website](https://library.utoronto.ca)
+
+## HTML links
+You can also create links using HTML syntax:
+```html
+<a href="URL" target="_blank">Link text</a>  // target="_blank" opens the link in a new tab
+```
+<a href="https://library.utoronto.ca" target="_blank">Link to UTL

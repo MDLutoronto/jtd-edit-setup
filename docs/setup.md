@@ -2,9 +2,8 @@
 title: Setup for Editing Just-the-Docs Sites
 layout: page
 nav_order: 1
-description: 
-created_date:
-# last_modified_date: # Only use it when you want to override the auto-updated date.
+description: The setup guide for editing Just-the-Docs sites for MDLutoronto
+created_date: 2025-12-09
 permalink: setup
 staff_name: Ken Lui
 staff_link: https://library.utoronto.ca/staff/ken-lui
