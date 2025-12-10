@@ -2,7 +2,7 @@
 title: Useful Resources
 layout: page
 nav_order: 5
-description: Contains useful resources for editing Just-the-Docs sites.
+description: Contains useful resources for editing Just-the-Docs sites
 created_date: 2025-12-09
 permalink: useful-resources
 staff_name: Ken Lui

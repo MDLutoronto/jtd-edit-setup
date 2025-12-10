@@ -2,7 +2,7 @@
 title: Markdown kitchen sink
 layout: page
 nav_order: 4
-description: 
+description: Markdown kitchen sink page showcasing various markdown features supported by just-the-docs
 created_date: 2024-10-01
 staff_name: Ken Lui
 staff_link: https://example.com/ken-lui

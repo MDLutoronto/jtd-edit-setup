@@ -2,7 +2,8 @@
 title: Rendering Tables from CSV
 layout: page
 nav_order: 2
-description: How to render tables from CSV files in Just-the-docs
+description: Guide on rendering tables from CSV files in Just-the-docs
+created_date: 2024-06-10
 parmalink: /render-csv/
 parent: Markdown kitchen sink
 ---
