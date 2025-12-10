@@ -310,6 +310,9 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 ### Syntax highlighting
 You can add syntax highlighting to code blocks by specifying the language after the opening triple backticks. For example, the following is a code block with Python syntax highlighting:
 
+{: .important}
+> From personal experience, syntax highlighting may not work properly if you are using Chrome/Microsoft Edge with 1password extension. If you encounter this issue, try disabling the 1password extension for your site.
+
 ```markdown
     ```python
     def hello_world():
