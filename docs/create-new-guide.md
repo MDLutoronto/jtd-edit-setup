@@ -93,6 +93,16 @@ To create a new page in your Just-the-docs site, follow these steps:
    description:  # A brief description of the page for SEO purposes.
    permalink: /  # Optional: Custom URL for the page. It will serve as the slug. For example, /home/
    created_date:  # Date when the page was created. Should be in YYYY-MM-DD format.
+   staff:  # Optional: Nested list of staff members associated with the page.
+      - name: Staff One
+        link: https://library.utoronto.ca/staff/staff-one  # link is optional
+      - name: Another Staff
+        link: https://example.com/another-staff
+   student_staff:  
+      - name: Student Name
+        link: https://example.com/student-name
+      - name: Another Student
+        link: https://example.com/another-student  # link is optional
    has_children: False  # Set to True if the page has subpages.
    ---
 
@@ -101,5 +111,8 @@ To create a new page in your Just-the-docs site, follow these steps:
    (content goes here)
 
    ```
+
+   For the staff and student_staff fields, it is in a nested list format. Each staff member or student should have a `name` and an optional `link` field. See the <a href="https://yaml.org/spec/1.2.2/#Example%202.12%20Compact%20Nested%20Mapping:~:text=Example%202.12%20Compact%20Nested%20Mapping" target="_blank"> YAML documentation for Nested Lists</a> for more details
+
 
    See the <a href="{{ '/docs/sink/' | relative_url }}">Sink</a> guide for the UI elements you can use in your markdown files.
