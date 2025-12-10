@@ -4,7 +4,7 @@ layout: page
 nav_order: 2
 description: How to render tables from CSV files in Just-the-docs
 parmalink: /render-csv/
-parent: Sink
+parent: Markdown kitchen sink
 ---
 # Table of Contents
 {: .no_toc }
