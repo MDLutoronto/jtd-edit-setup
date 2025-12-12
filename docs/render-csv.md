@@ -6,6 +6,9 @@ description: Guide on rendering tables from CSV files in Just-the-docs
 created_date: 2024-06-10
 parmalink: /render-csv/
 parent: Markdown kitchen sink
+staff: 
+   - name: Ken Lui
+     link: https://library.utoronto.ca/staff/ken-lui
 ---
 # Table of Contents
 {: .no_toc }

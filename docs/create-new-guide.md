@@ -6,8 +6,9 @@ description: Guide on creating a new Just-the-docs site with MDLutoronto templat
 created_date: 2025-12-09
 # last_modified_date: # Only use it when you want to override the auto-updated date.
 has_children: False
-staff_name: Ken Lui
-staff_link: https://library.utoronto.ca/staff/ken-lui
+staff: 
+   - name: Ken Lui
+     link: https://library.utoronto.ca/staff/ken-lui
 ---
 This guide will walk you through the steps to create a new guide with MDLutoronto's Just-the-docs template.
 

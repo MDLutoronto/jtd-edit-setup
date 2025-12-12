@@ -4,10 +4,9 @@ layout: page
 nav_order: 4
 description: Markdown kitchen sink page showcasing various markdown features supported by just-the-docs
 created_date: 2024-10-01
-staff_name: Ken Lui
-staff_link: https://example.com/ken-lui
-student_staff_name: Jane Doe
-student_staff_link: https://example.com/jane-doe
+staff: 
+   - name: Ken Lui
+     link: https://library.utoronto.ca/staff/ken-lui
 has_children: True
 ---
 A kitchen sink page is to showcase the various markdown features supported by just-the-docs. View the [source code of this page](https://github.com/MDLutoronto/jtd-edit-setup/blob/main/docs/sink.md) (the `sink.md` file in this repository) to see how to use these features.
