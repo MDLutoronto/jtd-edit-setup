@@ -6,8 +6,9 @@ description: Guide on editing the tutorials-search portal records
 created_date: 2025-12-05
 has_children: False
 permalink: /edit-tutorials-search/
-staff_name: Ken Lui
-staff_link: https://library.utoronto.ca/staff/ken-lui
+staff: 
+   - name: Ken Lui
+     link: https://library.utoronto.ca/staff/ken-lui
 ---
 
 This tutorial will guide you on how to add or modify records in the [tutorials-search](https://github.com/MDLutoronto/tutorials-search) repository.

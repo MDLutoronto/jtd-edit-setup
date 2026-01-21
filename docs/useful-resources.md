@@ -5,8 +5,9 @@ nav_order: 5
 description: Contains useful resources for editing Just-the-Docs sites
 created_date: 2025-12-09
 permalink: useful-resources
-staff_name: Ken Lui
-staff_link: https://library.utoronto.ca/staff/ken-lui
+staff: 
+   - name: Ken Lui
+     link: https://library.utoronto.ca/staff/ken-lui
 ---
 
 This page contains useful resources for editing Just-the-Docs sites.
