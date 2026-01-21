@@ -353,7 +353,12 @@ This is content inside a `<details>` dropdown.
 # Images
 This is how to include images that is part of the repository. The "relative_url" filter is required to ensure the correct path is used regardless of whether the site is served from the root or a subpath.
 
-This is the code to include the image, if you put the image in the `assets/images` folder:
+The best practice is to put your images in the [/docs/assets/images](https://github.com/MDLutoronto/jtd-edit-setup/tree/main/docs/images) folder.
+
+<img src="{{ '/images/image_dir.png' | relative_url }}" alt="UTL" style="width:200px;"/>
+
+The following code is used to include the UTL image:
+
 ```html
 <img src="{{ '/images/UTL.png' | relative_url }}" alt="UTL" style="width:200px;"/>
 ```
