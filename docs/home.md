@@ -5,8 +5,9 @@ nav_order: 1
 description: Home page for Just-the-docs documentation for MDL JTD sites.
 permalink: /
 created_date: 2025-12-09
-staff_name: Ken Lui
-staff_link: https://library.utoronto.ca/staff/ken-lui
+staff: 
+   - name: Ken Lui
+     link: https://library.utoronto.ca/staff/ken-lui
 ---
 <style>
   table {
