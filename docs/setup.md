@@ -44,8 +44,8 @@ This tutorial will guide you through the setup on your local machine for editing
 You would first need to install GitHub CLI on your windows environment
 
 1. Open a (Windows) PowerShell Terminal
-    <a href="{{ '/assets/images/01_powershell.gif' | relative_url }}" target="_blank">
-    <img src="{{ '/assets/images/01_powershell.gif' | relative_url }}" 
+    <a href="{{ '/images/01_powershell.gif' | relative_url }}" target="_blank">
+    <img src="{{ '/images/01_powershell.gif' | relative_url }}" 
         alt="Open PowerShell"
         style="width:600px; display:block; margin:auto;">
     </a>
@@ -60,8 +60,8 @@ You would first need to install GitHub CLI on your windows environment
     ```
 
     See the GIF below for full steps:
-    <a href="{{ '/assets/images/02_GH-CLI-auth.gif' | relative_url }}" target="_blank">
-    <img src="{{ '/assets/images/02_GH-CLI-auth.gif' | relative_url }}" 
+    <a href="{{ '/images/02_GH-CLI-auth.gif' | relative_url }}" target="_blank">
+    <img src="{{ '/images/02_GH-CLI-auth.gif' | relative_url }}" 
         alt="GitHub CLI Authentication"
         style="width:600px; display:block; margin:auto;">
     </a>
@@ -73,8 +73,8 @@ You would first need to install GitHub CLI on your windows environment
 > 
 > You can retrieve that email address the under Settings > Emails, after turning on the `Keep my email addresses private` option
 >
-> <a href="{{ '/assets/images/gh_private_email.png' | relative_url }}" target="_blank">
->    <img src="{{ '/assets/images/gh_private_email.png' | relative_url }}" 
+> <a href="{{ '/images/gh_private_email.png' | relative_url }}" target="_blank">
+>    <img src="{{ '/images/gh_private_email.png' | relative_url }}" 
 >        alt="GitHub CLI Authentication"
 >        style="width:1000px; display:block; margin:auto;">
 >    </a>
@@ -107,8 +107,8 @@ You would first need to install GitHub CLI on your windows environment
 > After logging in with your account that has access to the MDL GitHub repository, you should be able to view the (private) repository in your web browser.
 
 1. Open a (Windows) PowerShell Terminal
-    <a href="{{ '/assets/images/01_powershell.gif' | relative_url }}" target="_blank">
-    <img src="{{ '/assets/images/01_powershell.gif' | relative_url }}" 
+    <a href="{{ '/images/01_powershell.gif' | relative_url }}" target="_blank">
+    <img src="{{ '/images/01_powershell.gif' | relative_url }}" 
         alt="Open PowerShell"
         style="width:600px; display:block; margin:auto;">
     </a>
@@ -129,8 +129,8 @@ You would first need to install GitHub CLI on your windows environment
     >
     > After copying something, you can right-click on the terminal to paste it.
 
-    <a href="{{ '/assets/images/03_gh-clone.gif' | relative_url }}" target="_blank">
-    <img src="{{ '/assets/images/03_gh-clone.gif' | relative_url }}" 
+    <a href="{{ '/images/03_gh-clone.gif' | relative_url }}" target="_blank">
+    <img src="{{ '/images/03_gh-clone.gif' | relative_url }}" 
         alt="GitHub Repo Clone"
         style="width:600px; display:block; margin:auto;">
     </a>
@@ -147,8 +147,8 @@ You would first need to install GitHub CLI on your windows environment
     >
     > To utilize the auto-complete function (avoid typing the long string), type a few characters and press Tab to let the terminal finish it.
 
-    <a href="{{ '/assets/images/04-cd_dir.gif' | relative_url }}" target="_blank">
-    <img src="{{ '/assets/images/04-cd_dir.gif' | relative_url }}" 
+    <a href="{{ '/images/04-cd_dir.gif' | relative_url }}" target="_blank">
+    <img src="{{ '/images/04-cd_dir.gif' | relative_url }}" 
         alt="Change Directory in PowerShell"
         style="width:600px; display:block; margin:auto;">
     </a>
@@ -165,8 +165,8 @@ You would first need to install GitHub CLI on your windows environment
     bundle install
     ```
 
-    <a href="{{ '/assets/images/05-bundle_install.gif' | relative_url }}" target="_blank">
-    <img src="{{ '/assets/images/05-bundle_install.gif' | relative_url }}" 
+    <a href="{{ '/images/05-bundle_install.gif' | relative_url }}" target="_blank">
+    <img src="{{ '/images/05-bundle_install.gif' | relative_url }}" 
         alt="Bundle Install in PowerShell"
         style="width:600px; display:block; margin:auto;">
     </a>
@@ -177,8 +177,8 @@ You would first need to install GitHub CLI on your windows environment
     bundle exec jekyll serve --livereload
     ```
 
-    <a href="{{ '/assets/images/06-bundle-exec.gif' | relative_url }}" target="_blank">
-    <img src="{{ '/assets/images/06-bundle-exec.gif' | relative_url }}" 
+    <a href="{{ '/images/06-bundle-exec.gif' | relative_url }}" target="_blank">
+    <img src="{{ '/images/06-bundle-exec.gif' | relative_url }}" 
         alt="Jekyll Serve in PowerShell"
         style="width:600px; display:block; margin:auto;">
     </a>

@@ -355,9 +355,9 @@ This is how to include images that is part of the repository. The "relative_url"
 
 This is the code to include the image, if you put the image in the `assets/images` folder:
 ```html
-<img src="{{ '/assets/images/UTL.png' | relative_url }}" alt="UTL" style="width:200px;"/>
+<img src="{{ '/images/UTL.png' | relative_url }}" alt="UTL" style="width:200px;"/>
 ```
-<img src="{{ '/assets/images/UTL.png' | relative_url }}" alt="UTL" style="width:200px;"/>
+<img src="{{ '/images/UTL.png' | relative_url }}" alt="UTL" style="width:200px;"/>
 
 # Embed videos (iframe)
 
