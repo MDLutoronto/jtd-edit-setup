@@ -353,8 +353,9 @@ This is content inside a `<details>` dropdown.
 # Images
 To include an image in your markdown file, use the following syntax:
 
-
-`<img src="{{ 'PATH_TO_IMAGE' | relative_url }}" alt="ALT_TEXT" style="width:WIDTHpx;"/>`
+```html
+{% raw %}<img src="{{ 'PATH_TO_IMAGE' | relative_url }}" alt="ALT_TEXT" style="width:WIDTHpx;"/>{% endraw %}
+```
 
 Replace `PATH_TO_IMAGE` with the path to your image file, `ALT_TEXT` with the alternative text for the image, and `WIDTH` with the desired width of the image in pixels.
 
@@ -364,7 +365,9 @@ The best practice is to put your images in the [`/docs/assets/images`](https://g
 
 The following code is used to present the UTL image:
 
-`<img src="{{ '/images/UTL.png' | relative_url }}" alt="UTL" style="width:200px;"/>`
+```html
+{% raw %}<img src="{{ '/images/UTL.png' | relative_url }}" alt="UTL" style="width:200px;"/>{% endraw %}
+```
 
 <img src="{{ '/images/UTL.png' | relative_url }}" alt="UTL" style="width:200px;"/>
 
