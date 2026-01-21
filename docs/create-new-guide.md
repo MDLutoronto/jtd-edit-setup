@@ -115,4 +115,4 @@ To create a new page in your Just-the-docs site, follow these steps:
    For the staff and student_staff fields, it is in a nested list format. Each staff member or student should have a `name` and an optional `link` field. See the <a href="https://yaml.org/spec/1.2.2/#Example%202.12%20Compact%20Nested%20Mapping:~:text=Example%202.12%20Compact%20Nested%20Mapping" target="_blank"> YAML documentation for Nested Lists</a> for more details
 
 
-   See the <a href="{{ '/docs/sink/' | relative_url }}">Sink</a> guide for the UI elements you can use in your markdown files.
+   See the <a href="{{ '/sink/' | relative_url }}">Sink</a> guide for the UI elements you can use in your markdown files.
