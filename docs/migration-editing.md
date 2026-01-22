@@ -1,7 +1,7 @@
 ---
 title: Edit the migrated guides
 layout: page
-nav_order: 5
+nav_order: 4
 description: Guide on editing the migrated guides
 created_date: 2026-01-21
 has_children: False
@@ -40,8 +40,6 @@ The workflow for editing the migrated guides is similar to editing any Just-the-
 
 5. Open the docs/index.md file. This is the main file to edit.
 
-
-
 You are now ready to edit the docs. The editing steps can be divided into updating and checking.
 
 ## Updating the content
@@ -50,7 +48,7 @@ There are several things to update (add) in the migrated guides:
 
 1. Front matter: Update the front matter at the top of the file. 
 
-    - Update the `staff` section with the name and the link of the creator of the guide. 
+    - Update the `staff` section with the name and the link of the creator of the guide. If you see a active staff member, put their name and profile
       
       ```yaml
         staff:
@@ -58,7 +56,18 @@ There are several things to update (add) in the migrated guides:
             link: https://library.utoronto.ca/staff/ken-lui
       ```
     
-    - Update the description section (plain text only). Find the description in the [tutorial-search](https://mdlutoronto.github.io/tutorials-search/) site with the same guide title. 
+      For student staff member:
+      
+      ```yaml
+        student_staff:
+          - name: [Your Full Name]
+            link: [Link to your profile page, e.g., UTL staff page]
+      ```
+
+      {: .note }
+      If you notice the author is student staff, please add this to the 'issue' of the repository, and inform the supervising staff member to confirm which author name to put. 
+
+    - Update the description section (plain text only, without markdown/html syntax, for example embedded links). Find the description in the [tutorial-search](https://mdlutoronto.github.io/tutorials-search/) site with the same guide title.
     
       You may also refer to the backend <a href="https://github.com/MDLutoronto/tutorials-search/blob/main/_data/guides.yml" target="_blank">YAML file</a>.
 
@@ -66,7 +75,7 @@ There are several things to update (add) in the migrated guides:
           description: Guide on editing the migrated guides
         ```
 
-    - At the bottom of the file, you might find the `created date` value in the front matter. Update it to the current date in the format of `YYYY-MM-DD`.
+    - At the bottom of the file, you might find the 'Date Created' value in the front matter. Update it to the current date in the format of `YYYY-MM-DD`. Delete hte 'Date Created' line, including the 'Updated:YYY-MM-DD' line, once you have updated it.
 
         ```yaml
           created_date: 2026-01-21
@@ -76,8 +85,11 @@ There are several things to update (add) in the migrated guides:
 
 Check the following items while editing:
 
-    - [ ] Ordered list: rendered correctly not with escaped characters (e.g. 1\.)?
-    - [ ] Embedded links (out links): working correctly/not broken?
-    - [ ] Anchor links (internal links): working correctly/not broken?
-    - [ ] Syntax highlighting for code blocks. Add language identifier if missing (e.g., ```python).
+  1. **Ordered list**: rendered correctly and not with escaped characters (e.g. `1\.`)?
+  2. **Embedded links** (out links): working correctly/not broken?
+  3. **Anchor links** (internal links): working correctly/not broken?
+  4. **Syntax highlighting** for code blocks. Add language identifier if missing (e.g., ```python).
+  5. **Images**: rendered correctly/not broken?
+  6. **Spacing issue**: extra or missing spaces between words or lines?
 
+Once you have completed editing the guide, put a `Y` in the tracking spreadsheet's `initial_edit_status` column for the guide you edited.
