@@ -1,7 +1,7 @@
 ---
 title: Markdown kitchen sink
 layout: page
-nav_order: 4
+nav_order: 5
 description: Markdown kitchen sink page showcasing various markdown features supported by just-the-docs
 created_date: 2024-10-01
 staff: 

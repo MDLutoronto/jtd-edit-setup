@@ -21,7 +21,7 @@ You can create tables from CSV files stored in the `_data` folder of your just-t
 
 ## Prerequisites
 
-First, create a CSV file in the `_data` folder. For example, create `_data/csv_data.csv` with your tabular data.
+First, create a CSV file in the `/docs/_data` folder. For example, create `/docs/_data/csv_data.csv` with your tabular data.
 
 ## Basic Usage
 
@@ -80,7 +80,7 @@ Then, create the table structure:
 
 ## Using Multiple CSV Files
 
-To use a different CSV file (e.g., `_data/another_data.csv`), simply change the file name in the assign statement:
+To use a different CSV file (e.g., `/docs/_data/another_data.csv`), simply change the file name in the assign statement:
 
 ```liquid
 {% raw %}{% assign another_data = site.data.another_data %}

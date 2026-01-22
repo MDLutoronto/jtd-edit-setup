@@ -30,6 +30,8 @@ staff:
   }
 </style>
 
+# Introduction
+
 Welcome to the Just-the-docs documentation home page for the Map & Data Library at the University of Toronto Libraries. Here you will find the guide on how to edit our just-the-docs based sites
 
 # Structure of MDL just-the-docs sites

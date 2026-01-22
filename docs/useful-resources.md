@@ -1,7 +1,7 @@
 ---
 title: Useful Resources
 layout: page
-nav_order: 5
+nav_order: 6
 description: Contains useful resources for editing Just-the-Docs sites
 created_date: 2025-12-09
 permalink: useful-resources
