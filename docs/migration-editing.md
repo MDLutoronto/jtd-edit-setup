@@ -81,6 +81,13 @@ There are several things to update (add) in the migrated guides:
           created_date: 2026-01-21
         ```
 
+2. Update the syntax highlighting for code blocks. Make sure each code block has the correct language identifier after the triple backticks. You can check the <a href ='https://github.com/rouge-ruby/rouge/wiki/list-of-supported-languages-and-lexers'>rouge list for all the supported languages</a>. For example, for python code blocks, it should be:
+
+    ```python
+    # Your python code here
+    ```
+
+
 ## Checking the content
 
 Check the following items while editing:
