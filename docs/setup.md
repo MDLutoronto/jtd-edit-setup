@@ -27,9 +27,7 @@ This tutorial will guide you through the setup on your local machine for editing
 1. Windows PowerShell / PowerShell
 2. [Ruby](https://rubyinstaller.org/downloads/) (install the latest x64 version, e.g. [Ruby+Devkit 3.4.6-1 (x64)](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.4.6-1/rubyinstaller-devkit-3.4.6-1-x64.exe)) 
 3. [Git](https://git-scm.com/downloads) (install the Windows version)
-4. [GitHub CLI](https://cli.github.com/) (install the Windows version)
-    1. This might need administrative privileges to install
-5. [VS Code](https://code.visualstudio.com/)
+4. [VS Code](https://code.visualstudio.com/)
     1. Recommended VS Code extensions to install: 
         1. [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): for visually using git within VS Code
         2. [Path Autocomplete](https://marketplace.visualstudio.com/items?itemName=ionutvmi.path-autocomplete): for auto-completing file paths when editing markdown files
@@ -38,7 +36,7 @@ This tutorial will guide you through the setup on your local machine for editing
 
 # Configuration
 
-## Connect to GitHub using GitHub CLI in (Windows) PowerShell
+## Connect to GitHub using Git credential manager
 
 {: .important }
 You would first need to install GitHub CLI on your windows environment
@@ -50,21 +48,23 @@ You would first need to install GitHub CLI on your windows environment
         style="width:600px; display:block; margin:auto;">
     </a>
 
-2. Type gh auth login to initialize the login. Press Enter to choose the option, as shown in the code block below
+2. Type the following command to make the Git credential manager to manage your GitHub credentials
 
     ```powershell
-    ? Where do you use GitHub? GitHub.com
-    ? What is your preferred protocol for Git operations on this host? HTTPS
-    ? Authenticate Git with your GitHub credentials? Yes
-    ? How would you like to authenticate GitHub CLI? Login with a web browser
+    git config --global credential.helper manage
     ```
+3. Type the following command to login to your GitHub account
 
-    See the GIF below for full steps:
-    <a href="{{ '/assets/images/02_GH-CLI-auth.gif' | relative_url }}" target="_blank">
-    <img src="{{ '/assets/images/02_GH-CLI-auth.gif' | relative_url }}" 
-        alt="GitHub CLI Authentication"
-        style="width:600px; display:block; margin:auto;">
-    </a>
+    ```powershell
+    git credential-manager github login
+    ```
+    A window (outside the terminal) will pop up to ask you to login to your GitHub account. Once you click on the `Sign in` button, it will open a web browser window to let you login to your GitHub account. After logging in, you may close the web browser window and return to the PowerShell terminal.
+
+4. Run the following command to verify your GitHub authentication
+
+    ```powershell
+    git credential-manager github list
+    ```
 
 ## Setting up git user.name and user.email
 
@@ -91,12 +91,6 @@ You would first need to install GitHub CLI on your windows environment
     
     ```powershell
     git config --list
-    ```
-
-3. You will also need to setup the authentication for `GitHub` CLI, using the following command:
-
-    ```powershell
-    gh auth setup-git
     ```
 
 ## Clone the GitHub repository
