@@ -361,15 +361,15 @@ Replace `PATH_TO_IMAGE` with the path to your image file, `ALT_TEXT` with the al
 
 The best practice is to put your images in the [`/docs/assets/images`](https://github.com/MDLutoronto/jtd-edit-setup/tree/main/docs/images) folder.
 
-<img src="{{ '/images/image_dir.png' | relative_url }}" alt="UTL" style="width:800px;"/>
+<img src="{{ '/assets/images/image_dir.png' | relative_url }}" alt="UTL" style="width:800px;"/>
 
 The following code is used to present the UTL image:
 
 ```html
-{% raw %}<img src="{{ '/images/UTL.png' | relative_url }}" alt="UTL" style="width:200px;"/>{% endraw %}
+{% raw %}<img src="{{ '/assets/images/UTL.png' | relative_url }}" alt="UTL" style="width:200px;"/>{% endraw %}
 ```
 
-<img src="{{ '/images/UTL.png' | relative_url }}" alt="UTL" style="width:200px;"/>
+<img src="{{ '/assets/images/UTL.png' | relative_url }}" alt="UTL" style="width:200px;"/>
 
 # Embed videos (iframe)
 
