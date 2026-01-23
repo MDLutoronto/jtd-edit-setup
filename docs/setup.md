@@ -129,6 +129,16 @@ Once you have installed Git, follow the steps below for configuring Git credenti
     git config --list
     ```
 
+### Ruby
+For Ruby, during the installation, default options should be fine. 
+
+However, at the end of the installation, make sure to check uncheck the `Run 'ridk install' to set up MSYS2 and development toolchain` option before clicking on the Finish button.
+<img src="{{ '/assets/images/uncheck-msys2.png' | relative_url }}" 
+        alt="Uncheck Run ridk install"
+        style="width:500px; display:block; margin:auto;">
+
+
+
 # Working with an existing guide
 
 If you are editing an existing guide, you would need to clone (download) the GitHub repository to your local machine first.
