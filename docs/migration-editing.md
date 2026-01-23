@@ -85,6 +85,8 @@ There are several things to update (add) in the migrated guides:
 
     ```python
     # Your python code here
+    def hello_world():
+        print("Hello, world!")
     ```
 
 
