@@ -65,43 +65,43 @@ There are two ways to edit the records in the tutorials-search repository:
 1. Navigate to the [tutorials-search repository](https://github.com/MDLutoronto/tutorials-search) in a web browser.
 2. Create a new branch for your edits (optional but strongly recommended):
    1. Click on the X Branch button next to the `main` branch icon.
-    <img src="{{ '/images/tutorial-search-edit/branches_list.png' | relative_url }}" 
+    <img src="{{ '/assets/images/tutorial-search-edit/branches_list.png' | relative_url }}" 
         alt="Branches list button on GitHub"
         style="width:300px; display:block; margin:auto;">
    2. You will see 'New branch' green button on the right side. Enter a name for your new branch (e.g. `update-tutorials`), and select `main` in the _Source_ option.
    3. You should see the branch under the `Your branches` section. Click on it to switch to the new branch.
-    <img src="{{ '/images/tutorial-search-edit/switch_to_new_branch_gh.png' | relative_url }}" 
+    <img src="{{ '/assets/images/tutorial-search-edit/switch_to_new_branch_gh.png' | relative_url }}" 
           alt="Switch to new branch on GitHub"
           style="width:600px; display:block; margin:auto;">
    4. You should see `update-tutorials` next to the branch icon now.
-    <img src="{{ '/images/tutorial-search-edit/new_branch_after_switch.png' | relative_url }}" 
+    <img src="{{ '/assets/images/tutorial-search-edit/new_branch_after_switch.png' | relative_url }}" 
             alt="After switching to new branch"
             style="width:300px; display:block; margin:auto;">
 3. Navigate to the `_data` folder and click on the `guides.yml` file. Click on the pencil icon at the top right corner of the file view to edit the file.
-   <img src="{{ '/images/tutorial-search-edit/edit_this_file.png' | relative_url }}" 
+   <img src="{{ '/assets/images/tutorial-search-edit/edit_this_file.png' | relative_url }}" 
         alt="Location of guides.yml file"
         style="width:800px; display:block; margin:auto;">
 4. You will be lead to an online editor. Make your changes to the `guides.yml` file. Click on the `Commit changes` button at the top right corner when you are done.
 5. A pop-up will appear.
    1. Enter a meaningful commit message and description for your changes at the `Commit message` column. 
    2. You can leave the `Extended description` field empty. Ensure that the option `Commit directly to the <your-branch-name> branch.` is selected. Click on the `Commit changes` button to save your changes to the branch.
-   <img src="{{ '/images/tutorial-search-edit/commit-changes-pop-up.png' | relative_url }}" 
+   <img src="{{ '/assets/images/tutorial-search-edit/commit-changes-pop-up.png' | relative_url }}" 
         alt="Commit changes popup"
         style="width:300px; display:block; margin:auto;">
 6. Your changes will be saved to the new branch. Click on the `tutorials-search` box to go back to the repository main page in the current branch.
-    <img src="{{ '/images/tutorial-search-edit/after-commit.png' | relative_url }}" 
+    <img src="{{ '/assets/images/tutorial-search-edit/after-commit.png' | relative_url }}" 
         alt="After commit changes and back to repo main page"
         style="width:400px; display:block; margin:auto;">
 7. You should see an alert to create a Pull Request for your changes. Click on the `Compare & pull request` button.
-   <img src="{{ '/images/tutorial-search-edit/after-commit-alert.png' | relative_url }}" 
+   <img src="{{ '/assets/images/tutorial-search-edit/after-commit-alert.png' | relative_url }}" 
         alt="Create Pull Request alert"
         style="width:400px; display:block; margin:auto;">
 8. You will be lead to the Pull Request creation page. Scroll down and click the `Create pull request` button.
-    <img src="{{ '/images/tutorial-search-edit/create-pull-request.png' | relative_url }}" 
+    <img src="{{ '/assets/images/tutorial-search-edit/create-pull-request.png' | relative_url }}" 
           alt="Create Pull Request page"
           style="width:600px; display:block; margin:auto;">
 9.  You will be brought to a new page. There will be some automated checks that run. Once they pass, you can click on the `Squash and merge` button to merge your changes into the main branch.
-    <img src="{{ '/images/tutorial-search-edit/squash-and-merge.png' | relative_url }}" 
+    <img src="{{ '/assets/images/tutorial-search-edit/squash-and-merge.png' | relative_url }}" 
           alt="Squash and Merge button"
           style="width:400px; display:block; margin:auto;">
 10. Your changes will be live on the tutorials-search site shortly after the merge.

@@ -17,7 +17,7 @@ staff:
 
 # Data from CSV 
 
-You can create tables from CSV files stored in the `_data` folder of your just-the-docs site.
+You can create tables from CSV files stored in the `/docs/_data` folder of your just-the-docs site.
 
 ## Prerequisites
 
@@ -27,7 +27,7 @@ First, create a CSV file in the `/docs/_data` folder. For example, create `/docs
 
 To render a table from your CSV file:
 
-First, you will need to assign the CSV data to a variable. The Replace the site.data.**csv_data** with the name of your CSV file (without the .csv extension):
+First, you will need to assign the CSV data to a variable. The Replace the site.data.**csv_data** with the name of your CSV file (without the `.csv` extension):
 
 ```liquid
 {% raw %}{% assign csv_data = site.data.csv_data %}{% endraw %}
