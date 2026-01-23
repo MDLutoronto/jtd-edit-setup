@@ -63,11 +63,9 @@ For Git, during the installation, make sure to select the following options when
     
     Make sure the **Git Credential Manager** option is selected to enable Git credential manager for managing GitHub credentials
 
+Once you have installed Git, follow the steps below for configuring Git credential manager and setting up git `user.name` and `user.email`.
 
-## Connect to GitHub using Git credential manager
-
-{: .important }
-> You would first need to install Git on your Windows environment
+#### Connect to GitHub using Git credential manager
 
 1. Open a (Windows) PowerShell Terminal
     <a href="{{ '/assets/images/01_powershell.gif' | relative_url }}" target="_blank">
@@ -98,8 +96,9 @@ For Git, during the installation, make sure to select the following options when
     ```powershell
     git credential-manager github list
     ```
+    You should see your GitHub username printed in the terminal output
 
-## Setting up git user.name and user.email
+#### Setting up git user.name and user.email
 
 {: .important }
 > Note that the [user.name](http://user.name) and [user.email](http://user.email) input will be visible publicly. If you have any concerns, consider using the [email relay address for commit provided by GitHub](https://github.com/settings/emails). 
@@ -115,8 +114,12 @@ For Git, during the installation, make sure to select the following options when
 
 1. Input the following to set your git user name and email. The email should be the same as the one on your GitHub account (or the  email relay address provided by GitHub)
 
+    User name can be any name you want to show up on your commits: 
     ```powershell
     git config --global user.name "Your Name"
+    ```
+    User email should be the email address associated with your GitHub account (or the email relay address provided by GitHub):
+    ```powershell
     git config --global user.email "Your Email"
     ```
 
@@ -144,21 +147,30 @@ If you are editing an existing guide, you would need to clone (download) the Git
         style="width:600px; display:block; margin:auto;">
     </a>
 
-2. Type the command below to clone a GitHub repository; replace the git_link with the intended GitHub repository link
+2. Get the GitHub repository link to clone
+
+    1. Go to the intended GitHub repository page in your web browser (e.g. [MDLutoronto/jtd-student-sandbox](https://github.com/MDLutoronto/jtd-student-sandbox))
+    2. Click on the green `Code` button on the top right of the repository file list
+    3. Make sure the `HTTPS` tab is selected, then click on the clipboard icon to copy the repository link
+    <img src="{{ '/assets/images/get-repo-link.png' | relative_url }}" 
+        alt="Get GitHub Repo Clone Link"
+        style="width:500px; display:block; margin:auto;">
+
+3. Type the command below in a powershell terminal to clone a GitHub repository. Replace the git_link with the intended GitHub repository link.
 
     ```powershell
-    gh repo clone $git_link
+    git clone $git_link
     ```
 
-    For example, if you want to clone the sandbox repository above (with the .git link https://github.com/MDLutoronto/just-the-docs-sandbox-students.git), you will input
+    For example, if you want to clone the sandbox repository above (with the .git link https://github.com/MDLutoronto/jtd-student-sandbox.git), you will input
     ```powershell 
-    gh repo clone https://github.com/MDLutoronto/just-the-docs-sandbox-students.git
+    git clone https://github.com/MDLutoronto/jtd-student-sandbox.git
     ```
 
     {: .highlight-title }
     > Tip
     >
-    > After copying something, you can right-click on the terminal to paste it.
+    > You can right-click on the terminal to paste the copied text to the terminal
 
     <a href="{{ '/assets/images/03_gh-clone.gif' | relative_url }}" target="_blank">
     <img src="{{ '/assets/images/03_gh-clone.gif' | relative_url }}" 
@@ -171,12 +183,12 @@ If you are editing an existing guide, you would need to clone (download) the Git
 
 1. Once you have cloned the repository, type `cd $directory_name` to *change the directory* (`cd`) of the terminal to the repository directory.
     
-    The `directory_name` by default is the repository name. As for the example above, it is `just-the-docs-sandbox-students`
+    The `directory_name` by default is the repository name (slug). As for the example above, it is `jtd-student-sandbox`
 
     {: .highlight-title }
     > Tip
     >
-    > To utilize the auto-complete function (avoid typing the long string), type a few characters and press Tab to let the terminal finish it.
+    > To utilize the auto-complete function (avoid typing the long string), type a few characters and press `Tab` to let the terminal finish it.
 
     <a href="{{ '/assets/images/04-cd_dir.gif' | relative_url }}" target="_blank">
     <img src="{{ '/assets/images/04-cd_dir.gif' | relative_url }}" 
