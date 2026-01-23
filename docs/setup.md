@@ -101,7 +101,7 @@ Once you have installed Git, follow the steps below for configuring Git credenti
 #### Setting up git user.name and user.email
 
 {: .important }
-> Note that the [user.name](http://user.name) and [user.email](http://user.email) input will be visible publicly. If you have any concerns, consider using the [email relay address for commit provided by GitHub](https://github.com/settings/emails). 
+> Note that the `user.name` and `user.email` input will be visible publicly. If you have any concerns, consider using the [email relay address for commit provided by GitHub](https://github.com/settings/emails). 
 > 
 > You can retrieve that email address the under Settings > Emails, after turning on the `Keep my email addresses private` option
 >
