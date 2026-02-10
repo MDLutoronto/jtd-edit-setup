@@ -34,7 +34,7 @@ license_image_url: "https://mirrors.creativecommons.org/presskit/buttons/88x31/s
 # 🚨 DANGER ZONE 🚨
 # ONLY CHANGE BELOW THIS LINE IF YOU KNOW WHAT YOU ARE DOING
 #################################################
-source: docs
+source: docs # This makes jekyll renders files in the `docs` folder, instead of the root git repository.
 baseurl: "" # the subpath of your site, e.g. /blog
 # Link for the site title in the sidebar; set to "/" for homepage
 title_link: "https://mdlutoronto.github.io/tutorials-search/"
