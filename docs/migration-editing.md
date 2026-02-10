@@ -81,13 +81,22 @@ There are several things to update (add) in the migrated guides:
           created_date: 2026-01-21
         ```
 
-2. Update the syntax highlighting for code blocks. Make sure each code block has the correct language identifier after the triple backticks. You can check the <a href ='https://github.com/rouge-ruby/rouge/wiki/list-of-supported-languages-and-lexers' >rouge list for all the supported languages</a>. For example, for python code blocks, it should be:
+2. Update the syntax highlighting for code blocks. Make sure each code block has the correct language identifier after the triple backticks. You can check the <a href ='https://github.com/rouge-ruby/rouge/wiki/list-of-supported-languages-and-lexers' >rouge list for all the supported languages</a>. For example, for python code blocks, you can use either `python` or the alias `py` as the language identifier. The code block should look like this in the markdown file:
 
-    ```python
-    # Your python code here
-    def hello_world():
-        print("Hello, world!")
-    ```
+  ````markdown
+  ```python
+  # Your python code here
+  def hello_world():
+      print("Hello, world!")
+  ```
+  ````
+
+  The rendered code block should look like this with the correct syntax highlighting:
+  ```python
+  # Your python code here
+  def hello_world():
+      print("Hello, world!")
+  ```
 
 
 ## Checking the content
@@ -97,7 +106,18 @@ Check the following items while editing:
   1. **Ordered list**: rendered correctly and not with escaped characters (e.g. `1\.`)?
   2. **Embedded links** (out links): working correctly/not broken?
   3. **Anchor links** (internal links): working correctly/not broken?
-  5. **Images**: rendered correctly/not broken?
-  6. **Spacing issue**: extra or missing spaces between words or lines?
+  4. **Images**: rendered correctly/not broken?
+  5. **Spacing issue**: extra or missing spaces between words or lines?
 
 Once you have completed editing the guide, put a `Y` in the tracking spreadsheet's `initial_edit_status` column for the guide you edited.
+
+## Another issues
+If you notice any issue, please open a new 'issue' in the respective repository, and inform the supervising staff member. 
+
+You can find the 'issue' tab in the repository, as shown in the image below:
+
+<img src="{{ '/assets/images/issues.png' | relative_url }}" alt="Open issues" style="width:1200px;"/>
+
+Give a clear title and description for the issue, and inform the supervising staff member to check and confirm the issue.
+
+For example, if you notice the author of the guide is a student staff member, please mark it in the 'issue' and inform the supervising staff member to confirm which author name to put in the front matter.

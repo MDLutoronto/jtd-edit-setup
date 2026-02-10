@@ -359,7 +359,7 @@ To include an image in your markdown file, use the following syntax:
 
 Replace `PATH_TO_IMAGE` with the path to your image file, `ALT_TEXT` with the alternative text for the image, and `WIDTH` with the desired width of the image in pixels.
 
-The best practice is to put your images in the [`/docs/assets/images`](https://github.com/MDLutoronto/jtd-edit-setup/tree/main/docs/images) folder.
+The best practice is to put your images in the [`/docs/assets/images`](https://github.com/MDLutoronto/jtd-edit-setup/tree/main/docs/assets/images) folder.
 
 <img src="{{ '/assets/images/image_dir.png' | relative_url }}" alt="UTL" style="width:800px;"/>
 

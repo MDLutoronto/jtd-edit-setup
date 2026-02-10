@@ -138,7 +138,6 @@ However, at the end of the installation, make sure to check uncheck the `Run 'ri
         style="width:500px; display:block; margin:auto;">
 
 
-
 # Working with an existing guide
 
 If you are editing an existing guide, you would need to clone (download) the GitHub repository to your local machine first.

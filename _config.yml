@@ -5,7 +5,7 @@ url: "https://MDLutoronto.github.io/jtd-edit-setup" # change the slug to the rep
 repository: "MDLutoronto/jtd-edit-setup" # for github-metadata
 ## Navigation footer logos and links
 ## Change it only if you want to use different logos or links
-## Logos should be placed in the /assets/images/ directory, or you can use an external image link
+## Logos should be placed in the /docs/assets/images/ directory, or you can use an external image link
 nav_footer_logo_bottom: "/assets/images/UTL.png"
 nav_footer_logo_bottom_href: "https://library.utoronto.ca/"
 nav_footer_logo_top: "/assets/images/mdl_full_logo.png"
@@ -34,7 +34,7 @@ license_image_url: "https://mirrors.creativecommons.org/presskit/buttons/88x31/s
 # 🚨 DANGER ZONE 🚨
 # ONLY CHANGE BELOW THIS LINE IF YOU KNOW WHAT YOU ARE DOING
 #################################################
-source: docs
+source: docs # This makes jekyll renders files in the `docs` folder, instead of the root git repository.
 baseurl: "" # the subpath of your site, e.g. /blog
 # Link for the site title in the sidebar; set to "/" for homepage
 title_link: "https://mdlutoronto.github.io/tutorials-search/"
