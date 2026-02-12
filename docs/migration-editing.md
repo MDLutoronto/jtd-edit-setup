@@ -108,6 +108,7 @@ Check the following items while editing:
   3. **Anchor links** (internal links): working correctly/not broken?
   4. **Images**: rendered correctly/not broken?
   5. **Spacing issue**: extra or missing spaces between words or lines?
+  6. **`Back to top` link**: remove the `Back to top` link at the end of the guide, if there is one.
 
 Once you have completed editing the guide, put a `Y` in the tracking spreadsheet's `initial_edit_status` column for the guide you edited.
 
