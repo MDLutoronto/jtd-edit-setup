@@ -23,9 +23,9 @@ The workflow for editing the migrated guides is similar to editing any Just-the-
 
 ## Pre-requisites
 
-1. Access the [tracking spreadsheet](https://utoronto.sharepoint.com/:x:/r/sites/utl-mdlstaff/Shared%20Documents/Student%20space/Projects/Website%20Migration%20to%20Just%20the%20docs/migration_progress_final.xlsx?d=wd45d233b9f5547aa9a50cce4ef58549a&csf=1&web=1&e=PMEclE) for this migration project. Claim one guides to edit.
+1. Access the <a href="https://utoronto.sharepoint.com/:x:/r/sites/utl-mdlstaff/Shared%20Documents/Student%20space/Projects/Website%20Migration%20to%20Just%20the%20docs/migration_progress_final.xlsx?d=wd45d233b9f5547aa9a50cce4ef58549a&csf=1&web=1&e=PMEclE" target="_blank">tracking spreadsheet</a> for this migration project. Claim one guides to edit.
 
-2. Clone the repository of the guide you want to edit to your local machine. Check the [Setup for Editing Just-the-Docs Sites]({{site.baseurl}}/setup) guide for the prerequisite software and accounts.
+2. Clone the repository of the guide you want to edit to your local machine. Check the <a href="{{site.baseurl}}/setup" target="_blank">Setup for Editing Just-the-Docs Sites</a> guide for the prerequisite software and accounts.
 
 3. Navigate to the directory where you cloned the repository. 
 
@@ -67,7 +67,7 @@ There are several things to update (add) in the migrated guides:
       {: .note }
       If you notice the author is student staff, please add this to the 'issue' of the repository, and inform the supervising staff member to confirm which author name to put. 
 
-    - Update the description section (plain text only, without markdown/html syntax, for example embedded links). Find the description in the [tutorial-search](https://mdlutoronto.github.io/tutorials-search/) site with the same guide title.
+    - Update the description section (plain text only, without markdown/html syntax, for example embedded links). Find the description in the <a href="https://mdlutoronto.github.io/tutorials-search/" target="_blank">tutorial-search</a> site with the same guide title.
     
       You may also refer to the backend <a href="https://github.com/MDLutoronto/tutorials-search/blob/main/_data/guides.yml" target="_blank">YAML file</a>.
 
@@ -108,6 +108,7 @@ Check the following items while editing:
   3. **Anchor links** (internal links): working correctly/not broken?
   4. **Images**: rendered correctly/not broken?
   5. **Spacing issue**: extra or missing spaces between words or lines?
+  6. **`Back to top` link**: remove the `Back to top` link at the end of the guide, if there is one.
 
 Once you have completed editing the guide, put a `Y` in the tracking spreadsheet's `initial_edit_status` column for the guide you edited.
 
