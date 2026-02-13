@@ -5,7 +5,7 @@ nav_order: 4
 description: Guide on previewing website locally
 created_date: 2026-02-12
 has_children: False
-parent: Preview website and publish the changes
+parent: Edit, Preview and Publish
 permalink: /preview-website/
 staff: 
    - name: Ken Lui

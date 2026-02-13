@@ -1,19 +1,22 @@
 ---
-title: Edit an existing guide
+title: Edit a Guide
 layout: page
 nav_order: 4
 description: Guide on editing the tutorials-search portal records
 created_date: 2026-02-12
 has_children: False
-permalink: /edit-existing-guide/
+permalink: /edit-guide/
+parent: Edit, Preview and Publish
 staff: 
    - name: Ken Lui
      link: https://library.utoronto.ca/staff/ken-lui
 ---
 
-# Edit an existing guide
+# Edit a Guide
 
-If you are editing an existing guide, you would need to clone (download) the GitHub repository to your local machine first.
+If you have created a new guide or want to make changes to an existing guide, you can follow the instructions below.
+
+To edit a guide, you will first need to clone (download) the GitHub repository to your local machine.
 
 ## Clone the GitHub repository in VS code
 
@@ -62,41 +65,59 @@ If you are editing an existing guide, you would need to clone (download) the Git
         style="width:600px; display:block; margin:auto;">
     </a>
 
+# Creating a new page
+To create a new page in your Just-the-docs site, follow these steps:
+
+1. In your new repository, navigate to the `docs` folder.
+2. Create a new markdown file with the desired name for your new page. For example, if you want to create a page called `home`, create a file named `home.md`.
+3. Add the necessary front matter to the top of the markdown file.
+   ```yaml
+   ---
+   title: Home   # Title of the page, which will be displayed in the navigation and the browser title.
+   layout: page  # Layout type, usually 'page' for standard pages.
+   nav_order: 1  # Order in the navigation menu.
+   description:  # A brief description of the page for SEO purposes.
+   permalink: /  # Optional: Custom URL for the page. It will serve as the slug. For example, /home/
+   created_date:  # Date when the page was created. Should be in YYYY-MM-DD format.
+   has_children: False  # Set to True if the page has subpages.
+   ---
+   ```
+
+4. Add the content for your new page below the front matter, for example:
+
+   ```markdown
+   ---
+   title: Home   # Title of the page, which will be displayed in the navigation and the browser title.
+   layout: page  # Layout type, usually 'page' for standard pages.
+   nav_order: 1  # Order in the navigation menu.
+   description:  # A brief description of the page for SEO purposes.
+   permalink: /  # Optional: Custom URL for the page. It will serve as the slug. For example, /home/
+   created_date:  # Date when the page was created. Should be in YYYY-MM-DD format.
+   staff:  # Optional: Nested list of staff members associated with the page.
+      - name: Staff One
+        link: https://library.utoronto.ca/staff/staff-one  # link is optional
+      - name: Another Staff
+        link: https://example.com/another-staff
+   student_staff:  
+      - name: Student Name
+        link: https://example.com/student-name
+      - name: Another Student
+        link: https://example.com/another-student  # link is optional
+   has_children: False  # Set to True if the page has subpages.
+   ---
+
+   # Title of the Page
+   Hello World! This is my new page.
+   (content goes here)
+
+   ```
+
+   For the staff and student_staff fields, it is in a nested list format. Each staff member or student should have a `name` and an optional `link` field. See the <a href="https://yaml.org/spec/1.2.2/#Example%202.12%20Compact%20Nested%20Mapping:~:text=Example%202.12%20Compact%20Nested%20Mapping" target="_blank"> YAML documentation for Nested Lists</a> for more details
+
+
+   See the <a href="{{ '/sink/' | relative_url }}">Sink</a> guide for the UI elements you can use in your markdown files.
+
 # Next steps
-After changing the content, you can preview the website. See this
+After changing the content, you can preview the website. See the [Preview the website](/preview-website/) guide for instructions on how to do that. 
 
-## To preview the website
-
-1. Run bundle install  to install the necessary files to start the preview server
-
-    ```powershell
-    bundle install
-    ```
-
-    <a href="{{ '/assets/images/05-bundle_install.gif' | relative_url }}" target="_blank">
-    <img src="{{ '/assets/images/05-bundle_install.gif' | relative_url }}" 
-        alt="Bundle Install in PowerShell"
-        style="width:600px; display:block; margin:auto;">
-    </a>
-
-2. Run the following command to start the Jekyll server with live reload enabled
-
-    ```powershell
-    bundle exec jekyll serve --livereload
-    ```
-
-    <a href="{{ '/assets/images/06-bundle-exec.gif' | relative_url }}" target="_blank">
-    <img src="{{ '/assets/images/06-bundle-exec.gif' | relative_url }}" 
-        alt="Jekyll Serve in PowerShell"
-        style="width:600px; display:block; margin:auto;">
-    </a>
-
-    Once you see the following message in the terminal, you may access the preview pages in your preferred web browser via http://127.0.0.1:4000 (or whatever address the terminal shows after the Server address line)
-
-    ```text
-    ...
-    You can add fiddle to your Gemfile or gemspec to silence this warning.
-    LiveReload address: http://127.0.0.1:35729
-        Server address: http://127.0.0.1:4000
-    Server running... press ctrl-c to stop.
-    ```
+If you are ready to publish the changes, see the [Publish the guide](/publish-changes/) guide for instructions.

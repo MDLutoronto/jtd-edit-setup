@@ -154,4 +154,4 @@ However, at the end of the installation, make sure to check uncheck the `Run 'ri
 See the <a href="{{ '/create-new-guide/' | relative_url }}">Create a new guide</a> page for instructions on how to create a new Just-the-Docs guide.
 
 ## Existing guide
-See the <a href="{{ '/edit-existing-guide/' | relative_url }}">Edit an existing guide</a> page for instructions on how to work with an existing Just-the-Docs guide.
+See the <a href="{{ '/edit-guide/' | relative_url }}">Edit a guide</a> page for instructions on how to work with an existing Just-the-Docs guide.
