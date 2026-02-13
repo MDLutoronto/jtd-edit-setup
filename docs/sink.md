@@ -1,14 +1,17 @@
 ---
 title: Markdown kitchen sink
 layout: page
-nav_order: 5
+nav_order: 6
 description: Markdown kitchen sink page showcasing various markdown features supported by just-the-docs
 created_date: 2024-10-01
 staff: 
    - name: Ken Lui
      link: https://library.utoronto.ca/staff/ken-lui
 has_children: True
+has_toc: false
 ---
+
+# Introduction
 A kitchen sink page is to showcase the various markdown features supported by just-the-docs. View the [source code of this page](https://github.com/MDLutoronto/jtd-edit-setup/blob/main/docs/sink.md) (the `sink.md` file in this repository) to see how to use these features.
 
 Please also refer to [https://just-the-docs.com/docs/ui-components/](https://just-the-docs.com/docs/ui-components/) for other UI components you can use in your markdown files.

@@ -1,7 +1,7 @@
 ---
 title: Edit the tutorials-search Records
 layout: page
-nav_order: 2
+nav_order: 5
 description: Guide on editing the tutorials-search portal records
 created_date: 2025-12-05
 has_children: False

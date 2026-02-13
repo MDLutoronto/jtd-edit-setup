@@ -1,11 +1,11 @@
 ---
-title: Manage Student Access to MDLutoronto GitHub Repository
+title: Manage student access to MDLutoronto GitHub repository
 layout: page
 nav_order: 1
 description: The setup guide for granting access for students to the MDLutoronto GitHub repository for editing the just-the-docs sites.
 created_date: 2026-02-10
 permalink: /manage-student-access/
-parent: Setup for Editing Just-the-Docs Sites
+parent: Setup for editing Just-the-Docs Sites
 staff: 
    - name: Ken Lui
      link: https://library.utoronto.ca/staff/ken-lui
