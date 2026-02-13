@@ -65,25 +65,10 @@ To edit a guide, you will first need to clone (download) the GitHub repository t
         style="width:600px; display:block; margin:auto;">
     </a>
 
-# Creating a new page
-To create a new page in your Just-the-docs site, follow these steps:
+# Edit the content
 
-1. In your new repository, navigate to the `docs` folder.
-2. Create a new markdown file with the desired name for your new page. For example, if you want to create a page called `home`, create a file named `home.md`.
-3. Add the necessary front matter to the top of the markdown file.
-   ```yaml
-   ---
-   title: Home   # Title of the page, which will be displayed in the navigation and the browser title.
-   layout: page  # Layout type, usually 'page' for standard pages.
-   nav_order: 1  # Order in the navigation menu.
-   description:  # A brief description of the page for SEO purposes.
-   permalink: /  # Optional: Custom URL for the page. It will serve as the slug. For example, /home/
-   created_date:  # Date when the page was created. Should be in YYYY-MM-DD format.
-   has_children: False  # Set to True if the page has subpages.
-   ---
-   ```
-
-4. Add the content for your new page below the front matter, for example:
+1. Open the `index.md` file in VS Code. You will see the content of the file is in markdown format. The top part of the file is the front matter, which contains metadata about the page and is bounded by the three dashes (`---`). 
+   The content of the page goes after the front matter. Change the information in the front matter and the content of the page as needed. The front matter should follow the format below:
 
    ```markdown
    ---
@@ -105,17 +90,30 @@ To create a new page in your Just-the-docs site, follow these steps:
         link: https://example.com/another-student  # link is optional
    has_children: False  # Set to True if the page has subpages.
    ---
-
-   # Title of the Page
-   Hello World! This is my new page.
-   (content goes here)
-
    ```
 
-   For the staff and student_staff fields, it is in a nested list format. Each staff member or student should have a `name` and an optional `link` field. See the <a href="https://yaml.org/spec/1.2.2/#Example%202.12%20Compact%20Nested%20Mapping:~:text=Example%202.12%20Compact%20Nested%20Mapping" target="_blank"> YAML documentation for Nested Lists</a> for more details
+   For the staff and student_staff fields, it is in a nested list format. Each staff member or student should have a `name`, and an optional `link` field. See the <a href="https://yaml.org/spec/1.2.2/#Example%202.12%20Compact%20Nested%20Mapping:~:text=Example%202.12%20Compact%20Nested%20Mapping" target="_blank"> YAML documentation for Nested Lists</a> for the syntax.
 
 
-   See the <a href="{{ '/sink/' | relative_url }}">Markdown Kitchen sink</a> page for the UI elements you can use in your markdown files.
+2. Add the page content after the front matter. You can use markdown and HTML syntax to format the content. 
+
+    See the <a href="{{ '/sink/' | relative_url }}">Markdown Kitchen sink</a> page for the UI elements you can use in your just the docs site.
+    
+    See the <a href="https://www.markdownguide.org/basic-syntax/" target="_blank">Markdown Guide</a> for the syntax. 
+
+    The markdown file should look like this, combining the front matter and the content:
+
+    ```markdown
+    ---
+    title: Home   # Title of the page, which will be displayed in the navigation and the browser title.
+    layout: page  # Layout type, usually 'page' for standard pages.
+    nav_order: 1  # Order in the navigation menu.
+    ....
+    ---
+
+    # This is heading 1
+    Content starts from here. 
+    ```
 
 # Next steps
 After changing the content, you can preview the website. See the [Preview the website]({{site.baseurl}}/preview-website/) guide for instructions on how to do that. 
