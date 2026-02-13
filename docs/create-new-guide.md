@@ -9,10 +9,12 @@ staff:
    - name: Ken Lui
      link: https://library.utoronto.ca/staff/ken-lui
 ---
+# Introduction
 This guide will walk you through the steps to create a new guide with MDLutoronto's Just-the-docs template.
 
 The <a href="https://github.com/MDLutoronto/jtd-template" target="_blank">MDLutoronto/jtd-template</a> repository is a template repository that contains the necessary structure and files to create a new Just-the-docs site.
 
+# Steps
 ## Creating a new repository
 1. Click on the `Use this template` button at the top right of this repository page. Then, click on the `Create a new repository` button.
 
