@@ -79,6 +79,7 @@ Once you have installed Git, follow the steps below for configuring Git credenti
     ```powershell
     git config --global credential.helper manage
     ```
+    It's normal no output will be shown in the terminal after running this command.
 
 3. Type the following command to login to your GitHub account
 
@@ -123,10 +124,19 @@ Once you have installed Git, follow the steps below for configuring Git credenti
     git config --global user.email "Your Email"
     ```
 
-2. Check your settings with the following command. Look at the [`user.email`](http://user.email) and `user.name` rows. It should show the values you have set above.
+2. Check your settings with the following command:
     
     ```powershell
     git config --list
+    ```
+
+    Look at the `user.email` and `user.name` row, like the following:
+
+    ```text
+    ...
+    user.name=Your Name
+    user.email=Your Email
+    ...
     ```
 
 ### Ruby
