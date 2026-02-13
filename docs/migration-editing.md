@@ -1,7 +1,7 @@
 ---
 title: Edit the migrated guides
 layout: page
-nav_order: 4
+nav_order: 6
 description: Guide on editing the migrated guides
 created_date: 2026-01-21
 has_children: False

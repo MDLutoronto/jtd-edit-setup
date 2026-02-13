@@ -1,7 +1,7 @@
 ---
 title: Create a new guide on GitHub
 layout: page
-nav_order: 3
+nav_order: 4
 description: Guide on creating a new Just-the-docs site with MDLutoronto template
 created_date: 2025-12-09
 has_children: False
