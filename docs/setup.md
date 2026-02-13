@@ -1,5 +1,5 @@
 ---
-title: Setup for Editing Just-the-Docs Sites
+title: Setup for editing Just-the-Docs Sites
 layout: page
 nav_order: 1
 description: The setup guide for editing Just-the-Docs sites for MDLutoronto
@@ -9,6 +9,7 @@ has_children: true
 staff: 
    - name: Ken Lui
      link: https://library.utoronto.ca/staff/ken-lui
+has_toc: false
 ---
 
 

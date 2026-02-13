@@ -25,7 +25,7 @@ The workflow for editing the migrated guides is similar to editing any Just-the-
 
 1. Access the [tracking spreadsheet](https://utoronto.sharepoint.com/:x:/r/sites/utl-mdlstaff/Shared%20Documents/Student%20space/Projects/Website%20Migration%20to%20Just%20the%20docs/migration_progress_final.xlsx?d=wd45d233b9f5547aa9a50cce4ef58549a&csf=1&web=1&e=PMEclE) for this migration project. Claim one guides to edit.
 
-2. Clone the repository of the guide you want to edit to your local machine. Check the [Setup for Editing Just-the-Docs Sites]({{site.baseurl}}/setup) guide for the prerequisite software and accounts.
+2. Clone the repository of the guide you want to edit to your local machine. Check the [Setup for editing Just-the-Docs Sites]({{site.baseurl}}/setup) guide for the prerequisite software and accounts.
 
 3. Navigate to the directory where you cloned the repository. 
 

@@ -8,6 +8,7 @@ staff:
    - name: Ken Lui
      link: https://library.utoronto.ca/staff/ken-lui
 has_children: True
+has_toc: false
 ---
 A kitchen sink page is to showcase the various markdown features supported by just-the-docs. View the [source code of this page](https://github.com/MDLutoronto/jtd-edit-setup/blob/main/docs/sink.md) (the `sink.md` file in this repository) to see how to use these features.
 
