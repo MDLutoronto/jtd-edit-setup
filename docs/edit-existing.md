@@ -15,72 +15,55 @@ staff:
 
 If you are editing an existing guide, you would need to clone (download) the GitHub repository to your local machine first.
 
-## Clone the GitHub repository
+## Clone the GitHub repository in VS code
 
 {: .important }
 > Here is a sandbox repository to test your access rights/connection:
->[MDLutoronto/just-the-docs-sandbox-stduents](https://github.com/MDLutoronto/just-the-docs-sandbox-students)
+>[MDLutoronto/jtd-student-sandbox](https://github.com/MDLutoronto/jtd-student-sandbox).
 > After logging in with your account that has access to the MDL GitHub repository, you should be able to view the (private) repository in your web browser.
 
-1. Open a (Windows) PowerShell Terminal
-    <a href="{{ '/assets/images/01_powershell.gif' | relative_url }}" target="_blank">
-    <img src="{{ '/assets/images/01_powershell.gif' | relative_url }}" 
-        alt="Open PowerShell"
+1. Open VS Code, then click on the 'Source Control' icon on the left sidebar (or press Ctrl+Shift+G) to open the Source Control panel. Next, click on the 'Clone Repository' button. You should then see a prompt at the top of the window showing 'Clone from GitHub'. Click on it.
+
+    <a href="{{ '/assets/images/clone-from-vscode/source-control-clone.png' | relative_url }}" target="_blank">
+    <img src="{{ '/assets/images/clone-from-vscode/source-control-clone.png' | relative_url }}" 
+        alt="Clone Repository in VS Code"
         style="width:600px; display:block; margin:auto;">
     </a>
 
-2. Get the GitHub repository link to clone
+2. A drop-down menu will appear, showing the repositories you have access to. Select or type the name of the repository you want to clone (i.e. download) to your local machine.
 
-    1. Go to the intended GitHub repository page in your web browser (e.g. [MDLutoronto/jtd-student-sandbox](https://github.com/MDLutoronto/jtd-student-sandbox))
-    2. Click on the green `Code` button on the top right of the repository file list
-    3. Make sure the `HTTPS` tab is selected, then click on the clipboard icon to copy the repository link
-    <img src="{{ '/assets/images/get-repo-link.png' | relative_url }}" 
-        alt="Get GitHub Repo Clone Link"
-        style="width:500px; display:block; margin:auto;">
+    <a href="{{ '/assets/images/clone-from-vscode/list-of-repos.png' | relative_url }}" target="_blank">
+    <img src="{{ '/assets/images/clone-from-vscode/list-of-repos.png' | relative_url }}" 
+        alt="List of repositories in VS Code"
+        style="width:600px; display:block; margin:auto;">
+    </a>
+    The format of repository name of MDL GitHub  is `MDLutoronto/${repository-name}`. For example, the sandbox repository is `MDLutoronto/jtd-student-sandbox`.
 
-3. Type the command below in a powershell terminal to clone a GitHub repository. Replace the git_link with the intended GitHub repository link.
+3. Once you select the repository, you will be prompted to choose a local directory to save the cloned repository. Choose a location on your computer where you want to store the project files, then click 'Select as Repository Location'. You will see a message in the bottom right corner of the VS Code window saying 'Cloning git repository...'.
+    <a href="{{ '/assets/images/clone-from-vscode/cloning-git-repo.png' | relative_url }}" target="_blank">
+    <img src="{{ '/assets/images/clone-from-vscode/cloning-git-repo.png' | relative_url }}" 
+        alt="Cloning Git repository in VS Code"
+        style="width:300px; display:block; margin:auto;">
+    </a>
 
-    ```powershell
-    git clone $git_link
-    ```
+4. After the cloning process is complete, you will see a message in the middle asking if you want to open the cloned repository. Click 'Open' to open the repository in VS Code.
 
-    For example, if you want to clone the sandbox repository above (with the .git link https://github.com/MDLutoronto/jtd-student-sandbox.git), you will input
-    ```powershell 
-    git clone https://github.com/MDLutoronto/jtd-student-sandbox.git
-    ```
+    <a href="{{ '/assets/images/clone-from-vscode/open-repo.png' | relative_url }}" target="_blank">
+    <img src="{{ '/assets/images/clone-from-vscode/open-repo.png' | relative_url }}" 
+        alt="'Would you like to open the cloned repository?' prompt in VS Code"
+        style="width:300px; display:block; margin:auto;">
+    </a>
 
-    {: .highlight-title }
-    > Tip
-    >
-    > You can right-click on the terminal to paste the copied text to the terminal
+5. You should see the repository name in the left sidebar of VS Code (as the same as the local folder name). You can click on the 'Explorer' icon, then choose 'index.md' under docs to view the content of the guide in markdown format. You can edit the content in this file to make changes to the guide.
 
-    <a href="{{ '/assets/images/03_gh-clone.gif' | relative_url }}" target="_blank">
-    <img src="{{ '/assets/images/03_gh-clone.gif' | relative_url }}" 
-        alt="GitHub Repo Clone"
+    <a href="{{ '/assets/images/clone-from-vscode/open-index_md.png' | relative_url }}" target="_blank">
+    <img src="{{ '/assets/images/clone-from-vscode/open-index_md.png' | relative_url }}" 
+        alt="Open index.md file in VS Code"
         style="width:600px; display:block; margin:auto;">
     </a>
 
-
-## Enter the repository directory
-
-1. Once you have cloned the repository, type `cd $directory_name` to *change the directory* (`cd`) of the terminal to the repository directory.
-    
-    The `directory_name` by default is the repository name (slug). As for the example above, it is `jtd-student-sandbox`
-
-    {: .highlight-title }
-    > Tip
-    >
-    > To utilize the auto-complete function (avoid typing the long string), type a few characters and press `Tab` to let the terminal finish it.
-
-    <a href="{{ '/assets/images/04-cd_dir.gif' | relative_url }}" target="_blank">
-    <img src="{{ '/assets/images/04-cd_dir.gif' | relative_url }}" 
-        alt="Change Directory in PowerShell"
-        style="width:600px; display:block; margin:auto;">
-    </a>
-
-    You should see the prompt in the terminal changed to PS H:\just-the-docs-sandbox-students> with the above example
-
-2. Type `code .`  in the terminal to initialize the VS Code for this repository directory.
+# Next steps
+After changing the content, you can preview the website. See this
 
 ## To preview the website
 
