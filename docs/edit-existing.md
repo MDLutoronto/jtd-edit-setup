@@ -118,6 +118,6 @@ To create a new page in your Just-the-docs site, follow these steps:
    See the <a href="{{ '/sink/' | relative_url }}">Markdown Kitchen sink</a> page for the UI elements you can use in your markdown files.
 
 # Next steps
-After changing the content, you can preview the website. See the [Preview the website](/preview-website/) guide for instructions on how to do that. 
+After changing the content, you can preview the website. See the [Preview the website]({{site.baseurl}}/preview-website/) guide for instructions on how to do that. 
 
-If you are ready to publish the changes, see the [Publish the guide](/publish-changes/) guide for instructions.
+If you are ready to publish the changes, see the [Publish the guide]({{site.baseurl}}/publish-changes/) guide for instructions.

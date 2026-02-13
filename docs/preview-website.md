@@ -64,4 +64,4 @@ Assuming you are in the VS code terminal and in the root directory of the cloned
     </a>
 
 ## Next Steps
-After previewing the website and ensuring the changes look good, you can follow the instructions in the [Publish the changes to GitHub](/publish-changes/) guide to publish the changes to GitHub and make the changes live on the
+After previewing the website and ensuring the changes look good, you can follow the instructions in the [Publish the changes to GitHub]({{site.baseurl}}/publish-changes/) guide to publish the changes to GitHub and make the changes live on the website.
