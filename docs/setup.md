@@ -24,7 +24,7 @@ This tutorial will guide you through the setup on your local machine for editing
 
 ## Software
 
-1. [Ruby](https://rubyinstaller.org/downloads/) (install the latest x64 version, e.g. [Ruby+Devkit 3.4.6-1 (x64)](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.4.6-1/rubyinstaller-devkit-3.4.6-1-x64.exe)) 
+1. [Ruby](https://rubyinstaller.org/downloads/) (install the 3.4.6-1 (x64) version, i.e. [Ruby+Devkit 3.4.6-1 (x64)](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.4.6-1/rubyinstaller-devkit-3.4.6-1-x64.exe)) 
 2. [Git](https://git-scm.com/downloads) (install the Windows version)
 3. [VS Code](https://code.visualstudio.com/)
     1. Recommended VS Code extensions to install: 
