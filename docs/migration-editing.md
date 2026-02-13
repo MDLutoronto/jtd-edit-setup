@@ -111,7 +111,7 @@ Check the following items while editing:
 
 Once you have completed editing the guide, put a `Y` in the tracking spreadsheet's `initial_edit_status` column for the guide you edited.
 
-## Another issues
+## Other issues
 If you notice any issue, please open a new 'issue' in the respective repository, and inform the supervising staff member. 
 
 You can find the 'issue' tab in the repository, as shown in the image below:
