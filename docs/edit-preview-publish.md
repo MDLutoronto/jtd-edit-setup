@@ -10,6 +10,6 @@ has_toc: false
 ---
 # Preview and publish the changes
 This section includes guides on how to preview the website locally and how to publish the changes to the live site. You can click on the links below to access the guides:
-- [Edit the content](/edit-guide/)
-- [Preview the website locally](/preview-website/)
-- [Publish the changes to the live site](/publish-changes/)
+- [Edit the content]({{site.baseurl}}/edit-guide/)
+- [Preview the website locally]({{site.baseurl}}/preview-website/)
+- [Publish the changes to the live site]({{site.baseurl}}/publish-changes/)

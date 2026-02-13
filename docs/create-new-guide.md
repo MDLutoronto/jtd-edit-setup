@@ -78,4 +78,4 @@ To create a new guide, you will first need to create a new repository using the 
 You should now be able to see your new site at `https://MDLutoronto.github.io/your-repo-name` within a few minutes. For example, if your new repository is called `a-new-tutorial`, you should be able to see your new site at `https://MDLutoronto.github.io/a-new-tutorial`.
 
 ## Next steps
-To edit the content of your new guide, you can follow the guides in the [Edit, Preview and Publish](/edit-preview-and-publish/) section to learn how to edit the content, preview the changes locally, and publish the changes to GitHub.
+To edit the content of your new guide, you can follow the guides in the [Edit, Preview and Publish]({{site.baseurl}}/edit-preview-and-publish/) section to learn how to edit the content, preview the changes locally, and publish the changes to GitHub.
