@@ -54,4 +54,22 @@ Assuming you are in the VS code terminal and finished editing the files.
     <img src="{{ '/assets/images/publish-changes/push-using-graph.gif' | relative_url }}" 
         alt="Push Changes in VS Code using the graph tab under Source Control"
         style="width:600px; display:block; margin:auto;">
-    </a>  
+    </a>
+
+## Verify the Changes
+Once you have successfully pushed your changes to GitHub, you should be able to see the changes reflected on the docs site after a few minutes. 
+
+The site can be accessed with the URL `https://mdlutoronto.github.io/${repo-name}/` (replace `${repo-name}` with the name of your GitHub repository).
+
+You can find the repository name at the top of the repository page in GitHub, as below:
+
+<img src="{{ '/assets/images/repo-name.png' | relative_url }}" 
+    alt="Annotation of where to find the repository name in GitHub"
+    style="width:600px; display:block; margin:auto;">
+
+For example if your repository name is `example-tutorial`, then the URL to access the docs site will be `https://mdlutoronto.github.io/example-tutorial/`.
+
+# Next Steps
+Once you have confirm that site is working, you should proceed to add the tutorial to our tutorial-search page, which serves a search layer for all the tutorials at MDL.
+
+Follow the <a href="{{ '/edit-tutorials-search/' | relative_url }}">Edit the tutorials-search Records</a> guide to add your newly created tutorial to the search page.

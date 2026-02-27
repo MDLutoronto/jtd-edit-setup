@@ -1,5 +1,5 @@
 ---
-title: Edit a Guide
+title: Edit a guide
 layout: page
 nav_order: 4
 description: Guide on editing the tutorials-search portal records
@@ -12,7 +12,7 @@ staff:
      link: https://library.utoronto.ca/staff/ken-lui
 ---
 
-# Edit a Guide
+# Edit a guide
 
 If you have created a new guide or want to make changes to an existing guide, you can follow the instructions below.
 
