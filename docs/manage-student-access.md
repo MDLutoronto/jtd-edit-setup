@@ -9,6 +9,9 @@ parent: Setup for editing Just-the-Docs Sites
 staff: 
    - name: Ken Lui
      link: https://library.utoronto.ca/staff/ken-lui
+maintainer: 
+   - name: Ken Lui
+     link: https://library.utoronto.ca/staff/ken-lui
 ---
 
 # Introduction

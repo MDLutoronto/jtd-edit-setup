@@ -8,6 +8,9 @@ has_children: False
 staff: 
    - name: Ken Lui
      link: https://library.utoronto.ca/staff/ken-lui
+maintainer: 
+   - name: Ken Lui
+     link: https://library.utoronto.ca/staff/ken-lui
 ---
 # Introduction
 This guide will walk you through the steps to create a new guide with MDLutoronto's Just-the-docs template.

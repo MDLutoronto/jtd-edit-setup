@@ -8,6 +8,9 @@ created_date: 2025-12-09
 staff: 
    - name: Ken Lui
      link: https://library.utoronto.ca/staff/ken-lui
+maintainer: 
+   - name: Ken Lui
+     link: https://library.utoronto.ca/staff/ken-lui
 ---
 <style>
   table {
