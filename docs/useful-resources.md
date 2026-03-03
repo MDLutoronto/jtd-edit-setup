@@ -8,6 +8,9 @@ permalink: useful-resources
 staff: 
    - name: Ken Lui
      link: https://library.utoronto.ca/staff/ken-lui
+maintainer: 
+   - name: Ken Lui
+     link: https://library.utoronto.ca/staff/ken-lui
 ---
 
 This page contains useful resources for editing Just-the-Docs sites.

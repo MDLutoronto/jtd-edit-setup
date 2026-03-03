@@ -10,6 +10,9 @@ permalink: /publish-changes/
 staff: 
    - name: Ken Lui
      link: https://library.utoronto.ca/staff/ken-lui
+maintainer: 
+   - name: Ken Lui
+     link: https://library.utoronto.ca/staff/ken-lui
 ---
 
 # Publish the changes to GitHub

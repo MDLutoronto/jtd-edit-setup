@@ -9,6 +9,9 @@ staff:
      link: https://library.utoronto.ca/staff/ken-lui
 has_children: True
 has_toc: false
+maintainer: 
+   - name: Ken Lui
+     link: https://library.utoronto.ca/staff/ken-lui
 ---
 
 # Introduction

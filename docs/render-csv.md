@@ -9,6 +9,9 @@ parent: Markdown kitchen sink
 staff: 
    - name: Ken Lui
      link: https://library.utoronto.ca/staff/ken-lui
+maintainer: 
+   - name: Ken Lui
+     link: https://library.utoronto.ca/staff/ken-lui
 ---
 # Table of Contents
 {: .no_toc }

@@ -9,6 +9,9 @@ permalink: /edit-tutorials-search/
 staff: 
    - name: Ken Lui
      link: https://library.utoronto.ca/staff/ken-lui
+maintainer: 
+   - name: Ken Lui
+     link: https://library.utoronto.ca/staff/ken-lui
 ---
 
 This tutorial will guide you on how to add or modify records in the [tutorials-search](https://github.com/MDLutoronto/tutorials-search) repository.

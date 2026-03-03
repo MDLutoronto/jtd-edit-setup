@@ -10,6 +10,9 @@ parent: Edit, Preview and Publish
 staff: 
    - name: Ken Lui
      link: https://library.utoronto.ca/staff/ken-lui
+maintainer: 
+   - name: Ken Lui
+     link: https://library.utoronto.ca/staff/ken-lui
 ---
 
 # Edit a guide
@@ -83,6 +86,11 @@ To edit a guide, you will first need to clone (download) the GitHub repository t
         link: https://library.utoronto.ca/staff/staff-one  # link is optional
       - name: Another Staff
         link: https://example.com/another-staff
+    maintainer:  # Optional: Nested list of staff members associated with the page.
+      - name: Staff One
+        link: https://library.utoronto.ca/staff/staff-one  # link is optional
+      - name: Another Staff
+        link: https://example.com/another-staff
    student_staff:  
       - name: Student Name
         link: https://example.com/student-name
@@ -92,7 +100,15 @@ To edit a guide, you will first need to clone (download) the GitHub repository t
    ---
    ```
 
-   For the staff and student_staff fields, it is in a nested list format. Each staff member or student should have a `name`, and an optional `link` field. See the <a href="https://yaml.org/spec/1.2.2/#Example%202.12%20Compact%20Nested%20Mapping:~:text=Example%202.12%20Compact%20Nested%20Mapping" target="_blank"> YAML documentation for Nested Lists</a> for the syntax.
+   For the staff, maintainer, and student_staff fields, it is in a nested list format. Each of them should have a `name`, and an optional `link` field. See the <a href="https://yaml.org/spec/1.2.2/#Example%202.12%20Compact%20Nested%20Mapping:~:text=Example%202.12%20Compact%20Nested%20Mapping" target="_blank"> YAML documentation for Nested Lists</a> for the syntax.
+
+   It will render the information, in the footer (with embedded links if provided), in the format below:
+
+   ```text
+   Tutorial maintained by ${maintainer names, separated by comma}.
+
+   Tutorial created by ${staff names, separated by comma}. Additional contributions by ${student_staff names, separated by comma}.
+   ```
 
 
 2. Add the page content after the front matter. You can use markdown and HTML syntax to format the content. 
