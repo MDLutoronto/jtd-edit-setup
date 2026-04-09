@@ -31,7 +31,7 @@ Assuming you are in the VS code terminal and in the root directory of the cloned
 2. Run the following command to install the required dependencies and start the Jekyll server with live reload enabled:
 
     ```powershell
-    bundle install && bundle exec jekyll serve --livereload
+    bundle install ; bundle exec jekyll serve --livereload
     ```
 
     <a href="{{ '/assets/images/preview-site/bundle-install-exec.png' | relative_url }}" target="_blank">
