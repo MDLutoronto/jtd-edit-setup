@@ -1,7 +1,7 @@
 ---
 title: Preview the website
 layout: page
-nav_order: 4
+nav_order: 2
 description: Guide on previewing website locally
 created_date: 2026-02-12
 has_children: False

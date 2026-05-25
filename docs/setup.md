@@ -1,7 +1,7 @@
 ---
 title: Setup for editing Just-the-Docs Sites
 layout: page
-nav_order: 1
+nav_order: 2
 description: The setup guide for editing Just-the-Docs sites for MDLutoronto
 created_date: 2025-12-09
 permalink: setup

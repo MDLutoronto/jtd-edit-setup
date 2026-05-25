@@ -1,7 +1,7 @@
 ---
 title: Publish the changes to GitHub
 layout: page
-nav_order: 4
+nav_order: 3
 description: Guide on publishing the changes to GitHub (Commit and Push)
 created_date: 2026-02-12
 has_children: False
