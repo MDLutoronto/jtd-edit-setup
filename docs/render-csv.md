@@ -1,5 +1,5 @@
 ---
-title: Rendering Tables from CSV
+title: Rendering Tables from CSV (to HTML tables)
 layout: page
 nav_order: 2
 description: Guide on rendering tables from CSV files in Just-the-docs
