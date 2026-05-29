@@ -593,11 +593,11 @@ has_toc: false #Deletes the table of contents that is automatically generated
 	---
 	created_date: 2023-11-20
 	staff:
-    	- name: Kelly Schultz
-      	link: https://library.utoronto.ca/staff/kelly-schultz
-	maintainer: 
-    	- name: Kelly Schultz
-      	link: https://library.utoronto.ca/staff/kelly-schultz
+	    - name: Kelly Schultz
+	      link: https://library.utoronto.ca/staff/kelly-schultz
+	maintainer:
+	    - name: Kelly Schultz
+	      link: https://library.utoronto.ca/staff/kelly-schultz
 	title: #Title of the sub page
 	parent: #Title of the parent page
 	nav_order: 1 #Needs to be changed to reflect the order
