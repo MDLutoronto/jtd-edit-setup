@@ -579,3 +579,31 @@ You can also create links using HTML syntax:
 <a href="URL" target="_blank">Link text</a>  // target="_blank" opens the link in a new tab
 ```
 <a href="https://library.utoronto.ca" target="_blank">Link to UTL
+
+# Sidebar
+1.	Each section within the sidebar needs to have its own individual markdown file (.md). Create a new one within the docs directory with an appropriate name for each.
+2.	In the home page (index.md) header you need to add the following:
+```markdown
+nav_order: 0 # Order of pages in the sidebar
+has_children: true # Sets it as a parent page
+has_toc: false #Deletes the table of contents that is automatically generated
+```
+3.	In the sub-pages use the following as the header and update where needed:
+```markdown
+---
+created_date: 2023-11-20
+staff:
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
+maintainer: 
+    - name: Kelly Schultz
+      link: https://library.utoronto.ca/staff/kelly-schultz
+title: #Title of the sub page
+parent: #Title of the parent page
+nav_order: 1 #Needs to be changed to reflect the order
+layout: default
+---
+```
+4.	Cut all of the associated section from index.md and place it into the created markdown files.
+5.	Add the footer such as facets of the parent page (index.md) to each markdown file so that they appear in each. 
+	   
