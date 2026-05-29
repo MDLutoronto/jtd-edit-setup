@@ -606,6 +606,26 @@ In the sub-pages use the following as the header and update where needed:
 	layout: default
 	---
 ```
+
+For nested sub-pages use *grand_parent* as well as *parent*:
+
+```markdown
+	---
+	created_date: 2023-11-20
+	staff:
+	    - name: Kelly Schultz
+	      link: https://library.utoronto.ca/staff/kelly-schultz
+	maintainer:
+	    - name: Kelly Schultz
+	      link: https://library.utoronto.ca/staff/kelly-schultz
+	title: #Title of the sub page	
+	parent: #Title of the parent page
+	grand_parent: #Title of the grandparent page
+	nav_order: 1 #Needs to be changed to reflect the order
+	layout: default
+	---
+```
+
 Cut all of the associated section from index.md and place it into the created markdown files.
 
 Add the footer such as facets of the parent page (index.md) to each markdown file so that they appear in each. 
