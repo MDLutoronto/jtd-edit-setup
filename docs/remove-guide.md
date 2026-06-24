@@ -4,6 +4,7 @@ layout: page
 nav_order: 6
 description: Guide for deleting an existing tutorial
 created_date: 2026-06-24
+parent: Setup for editing Just-the-Docs Sites
 has_children: False
 staff: 
    - name: Neil Aitken
