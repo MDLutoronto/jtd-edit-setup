@@ -33,7 +33,8 @@ This guide will walk you through the steps to remove a guide from Tutorial Searc
 1. To remove the guide from the main tutorial search page, you will have to modify the 'guides.yml' file (located at https://github.com/MDLutoronto/tutorials-search/blob/main/_data/guides.yml)
 2. Search for the repository short name (or the GitHub repository's URL).
   1. If you find an entry with a matching URL, delete everything related to the entry (from id to type). See the example below:
-     ```yaml
+     
+     ```
      - id: 18
          title: "Bits and Bytes Series: Using LiDAR Data in ArcGIS Pro (Feb. 25, 2021)"
          url: https://mdlutoronto.github.io/bits-bytes-series-lidar-data-arcgis-feb-25-2021/
@@ -47,5 +48,5 @@ This guide will walk you through the steps to remove a guide from Tutorial Searc
         series: Bits and Bytes
         type: Video
      ```
-  2. If there are no hits, someone else has already removed the entry.
+  3. If there are no hits, someone else has already removed the entry.
 
