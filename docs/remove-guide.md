@@ -1,5 +1,5 @@
 ---
-title: Remove a guide from MDL GitHub
+title: Remove a guide from GitHub
 layout: page
 nav_order: 6
 description: Guide for deleting an existing tutorial
