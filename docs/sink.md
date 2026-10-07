@@ -630,3 +630,21 @@ Cut all of the associated section from index.md and place it into the created ma
 
 Add the footer such as facets of the parent page (index.md) to each markdown file so that they appear in each. 
 	   
+# Embed a PDF (slides)
+Just like embedding a video, you can embed a PDF file that will be displayed. You can use the following code to embed a PDF file:
+
+```html
+{% raw %}<embed src="{{ 'PATH_TO_PDF' | relative_url }}" type="application/pdf"  style="border:none;" width="100%" height="466px" />{% endraw %}
+```
+
+Replace `PATH_TO_PDF` with the path to your PDF file. The best practice is to put your PDF files in the `/docs/assets/pdf` directory. In this demo, the path is `/docs/assets/pdf/demo.pdf`. You can also adjust the height of the embedded PDF by changing the `height` attribute.
+
+The below is how it looks like when the PDF is embedded in the page:
+
+<embed src="{{ '/assets/pdf/demo.pdf' | relative_url }}" type="application/pdf"  style="border:none;" width="100%" height="466px" />
+
+You can also provide a download link:
+```html
+{% raw %}<a href="{{ 'PATH_TO_PDF' | relative_url }}" download>Download PDF</a>{% endraw %}
+```
+<a href="{{ '/assets/pdf/demo.pdf' | relative_url }}" download>Download PDF</a>
