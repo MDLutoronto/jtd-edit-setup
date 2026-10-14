@@ -56,23 +56,23 @@ To create a new guide, you will first need to create a new repository using the 
 ## Modifying the configuration file
 
 1. In order publish the website, you will have to modify the `_config.yml` file in your new repository, with the following modifications:
-   1. To modify the `_config.yml` file, click on the file in the repository file list. Then, click on the pencil icon on the top right corner of the file view to edit the file.
+   1. To modify the `_config.yml` file, click on the file in the repository file list. Then, click on the pencil icon in the top right corner of the file view to edit the file.
 
       
-   2. First, replace the `jtd-theme` in the `url` field with the name of your new repository.
+   2. First, replace the `/jtd-template` in the `baseurl` field with the name of your new repository.
    
-   For example, if your new repository is called `a-new-tutorial`, the `url` field should look like this:
-   ```yaml
-   url: "https://MDLutoronto.github.io/a-new-tutorial"
-   ```
+      For example, if your new repository is called `a-new-tutorial`, the `baseurl` field should look like this:
+      ```yaml
+      baseurl: "/a-new-tutorial"
+      ```
     
-   3. Then, replace the repository: "MDLutoronto/jtd-theme" with the name of your new repository. For example, if your new repository is called `a-new-tutorial`, the `repository` field should look like this:
+   3. Then, replace the repository: "MDLutoronto/jtd-template" with the name of your new repository. For example, if your new repository is called `a-new-tutorial`, the `repository` field should look like this:
    ```yaml
-   url: "MDLutoronto/a-new-tutorial"
+   repository: "MDLutoronto/a-new-tutorial"
    ```
-      <img src="{{ '/assets/images/create-new-guide/change-config.png' | relative_url}}" alt="Change _config.yml" style="width:600px;"/>
+      <img src="{{ '/assets/images/create-new-guide/change-config.png' | relative_url}}" alt="_config.yml file screenshot after changes" style="width:600px;"/>
 
-   4. Change the title and description fields accordingly to the reflect the content of your new site. 
+   4. Change the title and description fields accordingly to reflect the content of your new site. 
 
    5. Commit the changes to the `_config.yml` file. Enter your commit message. Ensure the `Commit directly to the main branch` option is selected, then click on the `Commit changes` button.
 
