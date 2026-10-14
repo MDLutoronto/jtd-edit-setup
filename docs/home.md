@@ -43,7 +43,33 @@ There are two main types of just-the-docs sites hosted by MDL via GitHub Pages:
 1. **General guides sites**: These are the main how-to-guides for various topics, such as GIS, data visualization, etc. It is meant to be browsed by patrons, and was hosted on MDL Drupal site previously.
 2. **Special sites**: These are just-the-docs sites that serve specific purposes, such as search portals, documentation for editing, etc.
 
-## Special sites:
+## How the sites are related
+
+```mermaid
+flowchart TD
+    accTitle: Relationships between the MDL just-the-docs sites
+    accDescr: jtd-template is a GitHub template used to create each new guide. jtd-theme provides the look of the guides and this site. tutorials-search lists every guide. jtd-edit-setup documents how to edit all of them.
+    theme["jtd-theme<br/>(remote theme)"]
+    template["jtd-template<br/>(GitHub template)"]
+    guides["General guide sites<br/>(one repository per guide)"]
+    search["tutorials-search<br/>(search portal)"]
+    editsetup["jtd-edit-setup<br/>(this site)"]
+
+    template -- "Use this template<br/>(one-time copy)" --> guides
+    theme -. "remote_theme<br/>(applied on every build)" .-> guides
+    theme -. "remote_theme" .-> editsetup
+    search -- "lists and links to<br/>(guides.yml)" --> guides
+    guides -- "sidebar title links back to" --> search
+    editsetup -- "documents how to edit" --> guides
+```
+
+- **jtd-theme** controls the layout, styles and components of the guide sites and this site. A change to the theme appears on those sites the next time each one is built.
+- **jtd-template** is a GitHub template. A new guide is created from it with the `Use this template` button, which copies its files once. Later changes to the template do **not** reach existing guides. See [Breaking changes to _config.yml]({{ '/breaking-changes/' | relative_url }}) for the changes that existing guides need to apply by hand.
+- **General guide sites** are created from the template and use the theme. Each guide has its own repository.
+- **tutorials-search** is the entry point for patrons. It lists every guide from its `guides.yml` file, so it must be updated whenever a guide is created, renamed or removed. See [Edit the tutorials-search Records]({{ '/edit-tutorials-search/' | relative_url }}).
+- **jtd-edit-setup** (this site) is the documentation for editing all of the above.
+
+## Special sites
 
 {% assign special-sites = site.data.special-sites %}
 <table>
